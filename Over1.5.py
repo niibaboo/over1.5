@@ -31,7 +31,12 @@ its recent matches.
 
 Setup:
     pip3 install requests --break-system-packages
-    python3 Over1.5.py YOUR_API_KEY   (or set THESTATSAPI_KEY)
+    python3 Over1.5.py YOUR_API_KEY   (or set THESTATSAPI_KEY_OVER15)
+
+    Uses its own dedicated TheStatsAPI key (THESTATSAPI_KEY_OVER15),
+    separate from the THESTATSAPI_KEY shared by Match IQ/Blue Line/
+    Under IQ -- this tool lives in its own repo with its own key so it
+    doesn't compete for rate limit with the others.
 
 Output:
     docs/over15-iq/over15_iq_index.html
@@ -490,11 +495,11 @@ function buildAcca() {{
 
 
 if __name__ == "__main__":
-    api_key = os.environ.get("THESTATSAPI_KEY")
+    api_key = os.environ.get("THESTATSAPI_KEY_OVER15")
     if not api_key and len(sys.argv) >= 2:
         api_key = sys.argv[1]
     if not api_key:
-        print("Usage: python3 over15_iq.py YOUR_API_KEY  (or set THESTATSAPI_KEY)")
+        print("Usage: python3 Over1.5.py YOUR_API_KEY  (or set THESTATSAPI_KEY_OVER15)")
         raise SystemExit(1)
 
     all_predictions = build_all_predictions(api_key)
