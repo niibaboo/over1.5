@@ -1,0 +1,42 @@
+name: Over IQ
+
+on:
+  schedule:
+    # Mon/Wed/Fri 06:00 UTC — same cadence as Match IQ/Under IQ: fixtures
+    # pull up to FIXTURE_WINDOW_DAYS (10) days ahead, so a 3x/week refresh
+    # keeps picks reasonably current without the extra API spend of a
+    # daily run.
+    - cron: '0 6 * * 1,3,5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Over IQ
+        env:
+          THESTATSAPI_KEY: ${{ secrets.THESTATSAPI_KEY }}
+        run: python3 Over1.5.py
+
+      - name: Commit and push updated predictions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/over15-iq/
+          git diff --staged --quiet || git commit -m "Update Over IQ predictions"
+          git pull --rebase --autostash origin main
+          git push
