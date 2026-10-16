@@ -19,7 +19,10 @@ DASHBOARD_PATH = "docs/over15-iq/results/index.html"
 
 SCANNER_LABELS = {
     "over15": "Match Over 1.5 Goals",
-    "safest": f"Safest Pick",
+    # "safest" is kept only so any already-logged entries from before the
+    # MIN_ODDS value-floor change still render with a readable label on
+    # the dashboard -- no new entries use this scanner.
+    "safest": "Safest Pick (legacy)",
 }
 
 
@@ -64,11 +67,11 @@ def save_log(log):
         json.dump(log, f, indent=2, default=str)
 
 
-def log_todays_signals(predictions, log, safe_min):
-    """One 'over15' entry per fixture (every fixture the model projected),
-    plus a second 'safest' entry for any fixture at/above safe_min --
-    tracked separately so the dashboard can report the headline Safest
-    scanner's own hit rate distinctly from the full pool's."""
+def log_todays_signals(predictions, log):
+    """One 'over15' entry per fixture. predictions is already filtered to
+    the MIN_ODDS value floor upstream (Over1.5.py), so every entry here
+    is a pick worth backing, not just a safe one -- no separate "safest"
+    tier needed anymore."""
     existing_ids = {e["id"] for e in log}
     added = 0
 
@@ -86,6 +89,7 @@ def log_todays_signals(predictions, log, safe_min):
             "date": p["date"],
             "prob": p["over15"],
             "exp_total": p["exp_total"],
+            "odds": p.get("odds"),
             "status": "pending",
             "result": None,
             "actual_total": None,
@@ -97,8 +101,6 @@ def log_todays_signals(predictions, log, safe_min):
         if p["over15"] <= 0:
             continue
         add("over15", p)
-        if p["over15"] >= safe_min:
-            add("safest", p)
 
     print(f"  Logged {added} new entries ({len(log)} total in log).")
     return log
@@ -184,10 +186,10 @@ def build_results_dashboard(log):
 </body></html>"""
 
 
-def run_results_tracker(predictions, key, safe_min):
+def run_results_tracker(predictions, key):
     print("Running results tracker...")
     log = load_log()
-    log = log_todays_signals(predictions, log, safe_min)
+    log = log_todays_signals(predictions, log)
     log = verify_pending_results(log, key)
     save_log(log)
     os.makedirs(os.path.dirname(DASHBOARD_PATH), exist_ok=True)
