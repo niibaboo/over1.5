@@ -29,6 +29,13 @@ one) — Over 1.5 only needs each team's own scored/conceded rate, so
 this makes ZERO per-match /stats calls, just 1 call per team to list
 its recent matches.
 
+VALUE FLOOR: because Over 1.5 is so reliably safe, bookmakers price it
+very short (often 1.05-1.15 on genuine near-locks) -- a correct pick
+that pays almost nothing isn't worth backing on its own. So the whole
+page is filtered to fixtures whose fair odds (100/probability) are at
+least MIN_ODDS, rather than just surfacing the highest-probability
+matches regardless of how little they'd pay.
+
 Setup:
     pip3 install requests --break-system-packages
     python3 Over1.5.py YOUR_API_KEY   (or set THESTATSAPI_KEY_OVER15)
@@ -60,14 +67,24 @@ RECENT_GAMES = 7
 PRIOR_STRENGTH = 3
 FIXTURE_WINDOW_DAYS = 10
 
-# "Purely 100%" in plain words means as close to a lock as a probabilistic
-# model can honestly claim -- 90% is the bar for the headline Safest
-# scanner. Over 1.5 already clears 85-90%+ in most competitive football,
-# so 90% keeps this to fixtures where the model sees real separation
-# above that baseline, not just "any match in a decent league." Starting
-# point only, like every threshold in this suite -- watch the results
-# tracker and adjust.
-SAFE_OVER15_MIN = 90
+# A pick this safe is exactly why the real-world price on it is short --
+# bookmakers price Over 1.5 off the same near-certainty this model is
+# measuring, so a 90%+ projection typically prices at ~1.05-1.11 real
+# odds: barely worth staking on its own. Rather than chase near-locks
+# that pay almost nothing, this caps the WHOLE page to fixtures whose
+# fair odds (100/probability) are at least MIN_ODDS -- so every pick
+# shown is one actually worth backing, not just one that's safe.
+# Starting point only, like every threshold in this suite -- adjust to
+# taste.
+MIN_ODDS = 1.20
+
+
+def implied_odds(prob_pct):
+    """Fair decimal odds implied by a probability percentage (100/prob).
+    None for 0% (undefined / infinite odds)."""
+    if not prob_pct:
+        return None
+    return round(100 / prob_pct, 2)
 
 # Union of Match IQ's and Under IQ's league lists (deduped) -- see those
 # files' own LEAGUE_SEARCH_NAMES for why each league was individually
@@ -317,11 +334,17 @@ def build_all_predictions(key):
                 continue
 
             proj = predict_over15(h_form, a_form, lg_scored, lg_conceded)
+            odds = implied_odds(proj["over15"])
+            if odds is None or odds < MIN_ODDS:
+                print(f"      -> skipped ({proj['over15']}% implies ~{odds} odds, below {MIN_ODDS} floor)")
+                continue
+
             merged = {
                 "match_id": m["id"],
                 "league": comp["name"], "date": m["utc_date"], "date_key": m["utc_date"][:10],
                 "home_team": m["home_team"]["name"], "away_team": m["away_team"]["name"],
                 "home_form": h_form, "away_form": a_form,
+                "odds": odds,
                 **proj,
             }
             all_predictions.append(merged)
@@ -334,41 +357,38 @@ def write_csv(predictions, path):
     with open(path, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["Date", "League", "HomeTeam", "AwayTeam",
-                          "ExpHome", "ExpAway", "ExpTotal", "Over15Pct"])
+                          "ExpHome", "ExpAway", "ExpTotal", "Over15Pct", "ImpliedOdds"])
         for p in predictions:
             writer.writerow([p["date"], p["league"], p["home_team"], p["away_team"],
-                              p["exp_home"], p["exp_away"], p["exp_total"], p["over15"]])
+                              p["exp_home"], p["exp_away"], p["exp_total"], p["over15"], p["odds"]])
 
 
-CARD_TEMPLATE = """<div style="background:#1a1f26;border-radius:12px;padding:14px;margin:10px 0;border:1px solid {border}">
+CARD_TEMPLATE = """<div style="background:#1a1f26;border-radius:12px;padding:14px;margin:10px 0;border:1px solid #1f6f3f">
   <div style="font-size:11px;color:#999">{league} · {time}</div>
   <div style="font-size:15px;font-weight:bold;margin:2px 0 6px">{home_team} vs {away_team}</div>
   <div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px">
     <span style="font-size:12px;color:#8b98a8">Exp {home_team} {exp_home} + {away_team} {exp_away} = {exp_total} total</span>
-    <span style="font-size:20px;font-weight:800;color:{prob_color}">{over15}%</span>
+    <span style="text-align:right">
+      <span style="font-size:20px;font-weight:800;color:#22c55e">{over15}%</span>
+      <div style="font-size:11px;color:#facc15;font-weight:700">~{odds} odds</div>
+    </span>
   </div>
-  <div style="font-size:10px;color:{badge_color};margin-top:4px">{badge_text}</div>
   <div style="font-size:10px;color:#8b98a8;margin-top:8px">last 5 (old→new): {home_team} {home_hist} &nbsp;|&nbsp; {away_team} {away_hist}</div>
 </div>"""
 
 
 def render_main_cards(predictions):
     if not predictions:
-        return '<p style="text-align:center;color:#888">No fixtures found in the current window.</p>'
+        return f'<p style="text-align:center;color:#888">No fixtures cleared the {MIN_ODDS}+ odds floor in the current window.</p>'
     cards = ""
     for p in predictions:
         home_hist = "/".join(str(v) for v in p["home_form"]["goals_list"]) or "—"
         away_hist = "/".join(str(v) for v in p["away_form"]["goals_list"]) or "—"
-        is_safe = p["over15"] >= SAFE_OVER15_MIN
         cards += CARD_TEMPLATE.format(
             league=p["league"], time=p["date"][:16].replace("T", " "),
             home_team=p["home_team"], away_team=p["away_team"],
             exp_home=p["exp_home"], exp_away=p["exp_away"], exp_total=p["exp_total"],
-            over15=p["over15"],
-            prob_color="#22c55e" if is_safe else "#facc15",
-            border="#1f6f3f" if is_safe else "#2a3038",
-            badge_color="#22c55e" if is_safe else "#555",
-            badge_text=f"✓ Safest Pick ({SAFE_OVER15_MIN}%+)" if is_safe else "",
+            over15=p["over15"], odds=p["odds"],
             home_hist=home_hist, away_hist=away_hist,
         )
     return cards
@@ -376,11 +396,11 @@ def render_main_cards(predictions):
 
 def build_legs(all_predictions):
     """One Over 1.5 leg per MATCH (not per team -- see module docstring).
-    Deliberately NOT filtered by SAFE_OVER15_MIN -- the builder draws
-    from the full pool, same as every other tool's Acca Builder in this
-    suite. subject=match label, so the builder's 1-per-subject cap
-    naturally caps this at 1 leg per match (there's only one market
-    here anyway, but this keeps the same JS unmodified)."""
+    all_predictions is already filtered to the MIN_ODDS floor by this
+    point, so every leg here is one worth backing, not just a safe one.
+    subject=match label, so the builder's 1-per-subject cap naturally
+    caps this at 1 leg per match (there's only one market here anyway,
+    but this keeps the same JS unmodified)."""
     legs = []
     for p in all_predictions:
         if p["over15"] <= 0:
@@ -405,7 +425,7 @@ HTML_TEMPLATE = """<!DOCTYPE html><html><head><meta charset="utf-8">
 <p style="text-align:center;color:#888;font-size:11px;margin-top:0">Powered by TheStatsAPI · {generated}</p>
 <p style="text-align:center;margin:6px 0 0;font-size:12px"><a href="results/index.html" style="color:#f59e0b;text-decoration:none">📊 Results Tracker</a></p>
 <p style="text-align:center;margin:12px 0 4px"><a href="over15_iq_predictions.csv" download style="background:#222;border:1px solid #444;color:white;padding:8px 14px;border-radius:8px;text-decoration:none;font-size:13px">⬇ Download CSV</a></p>
-<p style="text-align:center;color:#8b98a8;font-size:11px;margin:6px 0 0">Match-total Over 1.5 Goals — one of football's safest markets, since EITHER team scoring clears it. Green-bordered cards are {safe_min}%+ (Safest Picks).</p>
+<p style="text-align:center;color:#8b98a8;font-size:11px;margin:6px 0 0">Match-total Over 1.5 Goals — one of football's safest markets, since EITHER team scoring clears it. Filtered to fixtures implying {min_odds}+ real-world odds, so nothing shown here is priced too short to be worth backing.</p>
 
 <div id="builderPanel" style="background:#121820;border:1px solid #233040;border-radius:12px;padding:16px;margin:14px 0">
   <div style="font-size:15px;font-weight:800;margin-bottom:10px">🎯 Daily Acca Builder</div>
@@ -418,9 +438,10 @@ HTML_TEMPLATE = """<!DOCTYPE html><html><head><meta charset="utf-8">
     <button onclick="buildAcca()" style="background:#161d27;border:1px solid #233040;color:white;padding:7px 14px;border-radius:6px;font-size:13px;cursor:pointer">🔀 Shuffle</button>
   </div>
   <div id="builderResult" style="font-size:12px;color:#8b98a8">
-    Stacks the safest Over 1.5 picks across different matches toward your target odds.
-    Capped at ONE leg per match (there's only one market here, so this just protects
-    against future duplicate markets on the same fixture).
+    Stacks Over 1.5 picks (each already {min_odds}+ odds on its own) across different
+    matches toward your target odds. Capped at ONE leg per match (there's only one
+    market here, so this just protects against future duplicate markets on the same
+    fixture).
   </div>
 </div>
 
@@ -510,22 +531,20 @@ if __name__ == "__main__":
     with open("docs/over15-iq/over15_iq.json", "w") as f:
         json.dump(all_predictions, f, indent=2, default=str)
 
-    safe_count = sum(1 for p in all_predictions if p["over15"] >= SAFE_OVER15_MIN)
-
     html = HTML_TEMPLATE.format(
         generated=datetime.now().strftime("%Y-%m-%d %H:%M"),
-        safe_min=SAFE_OVER15_MIN,
+        min_odds=MIN_ODDS,
         cards=render_main_cards(all_predictions),
         legs_json=json.dumps(build_legs(all_predictions)),
     )
     with open("docs/over15-iq/over15_iq_index.html", "w") as f:
         f.write(html)
 
-    print(f"\nMain page — {len(all_predictions)} fixtures, {safe_count} at {SAFE_OVER15_MIN}%+.")
+    print(f"\nMain page — {len(all_predictions)} fixtures, all at {MIN_ODDS}+ implied odds.")
 
     try:
         import results_tracker_over15
-        results_tracker_over15.run_results_tracker(all_predictions, api_key, SAFE_OVER15_MIN)
+        results_tracker_over15.run_results_tracker(all_predictions, api_key)
     except Exception as e:
         # Results tracking sits on top of everything above, which has
         # already succeeded by this point -- a failure here should
