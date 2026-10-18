@@ -161,6 +161,39 @@ def build_results_dashboard(log):
           <span><b style="color:#22c55e">{stats['hit']}W</b> / <b style="color:#ef4444">{stats['miss']}L</b> ({pct}%) · {stats['pending']} pending</span>
         </div>"""
 
+    # By league (user request, 2026-10-18) -- same shape as "By scanner"
+    # above, just grouped on the "league" field every entry already
+    # carries (log_todays_signals has logged it since this tracker's
+    # first version, so this works retroactively on the existing log,
+    # no backfill needed). Sorted by win% desc (settled-only ties broken
+    # by most picks) so the leagues actually worth following float to
+    # the top instead of being buried alphabetically.
+    by_league = {}
+    for e in log:
+        league = e.get("league") or "Unknown"
+        by_league.setdefault(league, {"hit": 0, "miss": 0, "pending": 0})
+        if e["status"] == "pending":
+            by_league[league]["pending"] += 1
+        elif e["result"] == "hit":
+            by_league[league]["hit"] += 1
+        else:
+            by_league[league]["miss"] += 1
+
+    def _league_sort_key(item):
+        _, stats = item
+        settled = stats["hit"] + stats["miss"]
+        pct = stats["hit"] / settled if settled else -1
+        return (pct, settled)
+
+    league_rows = ""
+    for league, stats in sorted(by_league.items(), key=_league_sort_key, reverse=True):
+        settled = stats["hit"] + stats["miss"]
+        pct = round(100 * stats["hit"] / settled) if settled else 0
+        league_rows += f"""<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #233040">
+          <span>{league}</span>
+          <span><b style="color:#22c55e">{stats['hit']}W</b> / <b style="color:#ef4444">{stats['miss']}L</b> ({pct}%) · {stats['pending']} pending</span>
+        </div>"""
+
     recent = sorted([e for e in log if e["status"] == "settled"], key=lambda e: e["date"], reverse=True)[:30]
     recent_rows = ""
     for e in recent:
@@ -178,6 +211,10 @@ def build_results_dashboard(log):
 <div style="background:#121820;border:1px solid #233040;border-radius:12px;padding:14px;margin:14px 0">
   <div style="font-weight:700;margin-bottom:6px">By scanner</div>
   {rows}
+</div>
+<div style="background:#121820;border:1px solid #233040;border-radius:12px;padding:14px;margin:14px 0">
+  <div style="font-weight:700;margin-bottom:6px">By league</div>
+  {league_rows}
 </div>
 <div style="background:#121820;border:1px solid #233040;border-radius:12px;padding:14px;margin:14px 0">
   <div style="font-weight:700;margin-bottom:6px">Recent results</div>
