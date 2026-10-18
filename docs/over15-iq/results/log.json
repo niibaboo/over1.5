@@ -788,9 +788,9 @@
     "date": "2026-10-17T14:00:00.000Z",
     "prob": 54,
     "exp_total": 1.81,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_899755990",
@@ -801,9 +801,9 @@
     "date": "2026-10-17T12:00:00.000Z",
     "prob": 50,
     "exp_total": 1.69,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_200251571",
@@ -814,9 +814,9 @@
     "date": "2026-10-18T15:30:00.000Z",
     "prob": 95,
     "exp_total": 4.81,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_200251571",
@@ -827,9 +827,9 @@
     "date": "2026-10-18T15:30:00.000Z",
     "prob": 95,
     "exp_total": 4.81,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_511385224",
@@ -840,9 +840,9 @@
     "date": "2026-10-18T18:00:00.000Z",
     "prob": 94,
     "exp_total": 4.56,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_511385224",
@@ -853,9 +853,9 @@
     "date": "2026-10-18T18:00:00.000Z",
     "prob": 94,
     "exp_total": 4.56,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_466104772",
@@ -866,9 +866,9 @@
     "date": "2026-10-18T14:45:00.000Z",
     "prob": 94,
     "exp_total": 4.52,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "safest:mt_466104772",
@@ -879,9 +879,9 @@
     "date": "2026-10-18T14:45:00.000Z",
     "prob": 94,
     "exp_total": 4.52,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "over15:mt_899827593",
@@ -892,9 +892,9 @@
     "date": "2026-10-18T12:00:00.000Z",
     "prob": 93,
     "exp_total": 4.37,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "safest:mt_899827593",
@@ -905,9 +905,9 @@
     "date": "2026-10-18T12:00:00.000Z",
     "prob": 93,
     "exp_total": 4.37,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_511977688",
@@ -918,9 +918,9 @@
     "date": "2026-10-18T13:00:00.000Z",
     "prob": 92,
     "exp_total": 4.14,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "safest:mt_511977688",
@@ -931,9 +931,9 @@
     "date": "2026-10-18T13:00:00.000Z",
     "prob": 92,
     "exp_total": 4.14,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_465746155",
@@ -970,9 +970,9 @@
     "date": "2026-10-18T12:00:00.000Z",
     "prob": 92,
     "exp_total": 4.17,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "safest:mt_377120038",
@@ -983,9 +983,9 @@
     "date": "2026-10-18T12:00:00.000Z",
     "prob": 92,
     "exp_total": 4.17,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_988479111",
@@ -996,9 +996,9 @@
     "date": "2026-10-18T10:15:00.000Z",
     "prob": 91,
     "exp_total": 4.05,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "safest:mt_988479111",
@@ -1009,9 +1009,9 @@
     "date": "2026-10-18T10:15:00.000Z",
     "prob": 91,
     "exp_total": 4.05,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_986410010",
@@ -1022,9 +1022,9 @@
     "date": "2026-10-18T15:00:00.000Z",
     "prob": 91,
     "exp_total": 4.03,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "safest:mt_986410010",
@@ -1035,9 +1035,9 @@
     "date": "2026-10-18T15:00:00.000Z",
     "prob": 91,
     "exp_total": 4.03,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "over15:mt_641364512",
@@ -1048,9 +1048,9 @@
     "date": "2026-10-18T02:30:00.000Z",
     "prob": 90,
     "exp_total": 3.85,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "safest:mt_641364512",
@@ -1061,9 +1061,9 @@
     "date": "2026-10-18T02:30:00.000Z",
     "prob": 90,
     "exp_total": 3.85,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_370285581",
@@ -1074,9 +1074,9 @@
     "date": "2026-10-18T12:30:00.000Z",
     "prob": 90,
     "exp_total": 3.87,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_370285581",
@@ -1087,9 +1087,9 @@
     "date": "2026-10-18T12:30:00.000Z",
     "prob": 90,
     "exp_total": 3.87,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_466402010",
@@ -1100,9 +1100,9 @@
     "date": "2026-10-18T13:30:00.000Z",
     "prob": 89,
     "exp_total": 3.8,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_732091196",
@@ -1113,9 +1113,9 @@
     "date": "2026-10-18T17:15:00.000Z",
     "prob": 88,
     "exp_total": 3.68,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_022910449",
@@ -1126,9 +1126,9 @@
     "date": "2026-10-18T12:30:00.000Z",
     "prob": 87,
     "exp_total": 3.59,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_894652256",
@@ -1139,9 +1139,9 @@
     "date": "2026-10-18T15:00:00.000Z",
     "prob": 87,
     "exp_total": 3.52,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_733502265",
@@ -1152,9 +1152,9 @@
     "date": "2026-10-18T14:00:00.000Z",
     "prob": 86,
     "exp_total": 3.48,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_988479188",
@@ -1165,9 +1165,9 @@
     "date": "2026-10-18T18:00:00.000Z",
     "prob": 85,
     "exp_total": 3.41,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_466492704",
@@ -1178,9 +1178,9 @@
     "date": "2026-10-18T19:00:00.000Z",
     "prob": 85,
     "exp_total": 3.35,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_733561677",
@@ -1191,9 +1191,9 @@
     "date": "2026-10-18T10:30:00.000Z",
     "prob": 85,
     "exp_total": 3.4,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_200199353",
@@ -1204,9 +1204,9 @@
     "date": "2026-10-18T13:00:00.000Z",
     "prob": 82,
     "exp_total": 3.11,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_899064480",
@@ -1217,9 +1217,9 @@
     "date": "2026-10-18T16:00:00.000Z",
     "prob": 82,
     "exp_total": 3.13,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_899072776",
@@ -1230,9 +1230,9 @@
     "date": "2026-10-18T13:00:00.000Z",
     "prob": 82,
     "exp_total": 3.1,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_024111214",
@@ -1243,9 +1243,9 @@
     "date": "2026-10-18T17:30:00.000Z",
     "prob": 82,
     "exp_total": 3.12,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_200789922",
@@ -1256,9 +1256,9 @@
     "date": "2026-10-18T12:00:00.000Z",
     "prob": 81,
     "exp_total": 3.03,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 6
   },
   {
     "id": "over15:mt_517251365",
@@ -1269,9 +1269,9 @@
     "date": "2026-10-18T02:30:00.000Z",
     "prob": 77,
     "exp_total": 2.79,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_739444327",
@@ -1282,9 +1282,9 @@
     "date": "2026-10-18T15:15:00.000Z",
     "prob": 77,
     "exp_total": 2.79,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_024820095",
@@ -1295,9 +1295,9 @@
     "date": "2026-10-18T13:00:00.000Z",
     "prob": 77,
     "exp_total": 2.82,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "over15:mt_378073340",
@@ -1308,9 +1308,9 @@
     "date": "2026-10-18T18:00:00.000Z",
     "prob": 76,
     "exp_total": 2.74,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_895498864",
@@ -1321,9 +1321,9 @@
     "date": "2026-10-18T17:00:00.000Z",
     "prob": 76,
     "exp_total": 2.75,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_981689934",
@@ -1334,9 +1334,9 @@
     "date": "2026-10-18T14:30:00.000Z",
     "prob": 76,
     "exp_total": 2.76,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 6
   },
   {
     "id": "over15:mt_511569283",
@@ -1347,9 +1347,9 @@
     "date": "2026-10-18T16:30:00.000Z",
     "prob": 75,
     "exp_total": 2.7,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "over15:mt_028402987",
@@ -1360,9 +1360,9 @@
     "date": "2026-10-18T02:30:00.000Z",
     "prob": 75,
     "exp_total": 2.67,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_155684881",
@@ -1373,9 +1373,9 @@
     "date": "2026-10-18T16:00:00.000Z",
     "prob": 73,
     "exp_total": 2.59,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_641538833",
@@ -1386,9 +1386,9 @@
     "date": "2026-10-18T15:00:00.000Z",
     "prob": 71,
     "exp_total": 2.49,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_644011829",
@@ -1399,9 +1399,9 @@
     "date": "2026-10-18T13:00:00.000Z",
     "prob": 70,
     "exp_total": 2.44,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_733622147",
@@ -1412,9 +1412,9 @@
     "date": "2026-10-18T15:30:00.000Z",
     "prob": 66,
     "exp_total": 2.24,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_022357502",
@@ -1425,9 +1425,9 @@
     "date": "2026-10-18T18:45:00.000Z",
     "prob": 64,
     "exp_total": 2.17,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_150999594",
@@ -1438,9 +1438,9 @@
     "date": "2026-10-18T13:00:00.000Z",
     "prob": 60,
     "exp_total": 2.02,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_733716944",
@@ -1451,9 +1451,9 @@
     "date": "2026-10-18T14:15:00.000Z",
     "prob": 59,
     "exp_total": 1.98,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_150351180",
@@ -1464,9 +1464,9 @@
     "date": "2026-10-18T14:00:00.000Z",
     "prob": 53,
     "exp_total": 1.76,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_644951164",
