@@ -944,9 +944,9 @@
     "date": "2026-10-18T21:00:00.000Z",
     "prob": 92,
     "exp_total": 4.1,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "safest:mt_465746155",
@@ -957,9 +957,9 @@
     "date": "2026-10-18T21:00:00.000Z",
     "prob": 92,
     "exp_total": 4.1,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_377120038",
@@ -4289,6 +4289,76 @@
     "prob": 67,
     "exp_total": 2.32,
     "odds": 1.49,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_894589696",
+    "scanner": "over15",
+    "match_id": "mt_894589696",
+    "match": "Seattle Sounders FC vs Houston Dynamo",
+    "league": "MLS",
+    "date": "2026-10-29T02:30:00.000Z",
+    "prob": 83,
+    "exp_total": 3.24,
+    "odds": 1.2,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_733561721",
+    "scanner": "over15",
+    "match_id": "mt_733561721",
+    "match": "Frosinone vs Lecce",
+    "league": "Serie A",
+    "date": "2026-10-29T17:30:00.000Z",
+    "prob": 82,
+    "exp_total": 3.16,
+    "odds": 1.22,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_465746166",
+    "scanner": "over15",
+    "match_id": "mt_465746166",
+    "match": "Austin FC vs Real Salt Lake",
+    "league": "MLS",
+    "date": "2026-10-29T00:30:00.000Z",
+    "prob": 78,
+    "exp_total": 2.86,
+    "odds": 1.28,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_209620863",
+    "scanner": "over15",
+    "match_id": "mt_209620863",
+    "match": "San Jose Earthquakes vs Colorado Rapids",
+    "league": "MLS",
+    "date": "2026-10-29T02:30:00.000Z",
+    "prob": 75,
+    "exp_total": 2.72,
+    "odds": 1.33,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_517251317",
+    "scanner": "over15",
+    "match_id": "mt_517251317",
+    "match": "FC Dallas vs Columbus Crew",
+    "league": "MLS",
+    "date": "2026-10-29T00:30:00.000Z",
+    "prob": 69,
+    "exp_total": 2.41,
+    "odds": 1.45,
     "status": "pending",
     "result": null,
     "actual_total": null
