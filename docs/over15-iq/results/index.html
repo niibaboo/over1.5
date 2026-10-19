@@ -64,96 +64,331 @@
 </div>
 <div style="background:#121820;border:1px solid #233040;border-radius:12px;padding:14px;margin:14px 0">
   <div style="font-weight:700;margin-bottom:6px">Recent results</div>
-  <div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+  <div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap">
+          <button class="date-filter-btn" data-range="7" onclick="filterByDate(7,this)" style="background:#1a2433;border:1px solid #233040;color:#f59e0b;padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer">Last 7 Days</button>
+          <button class="date-filter-btn" data-range="30" onclick="filterByDate(30,this)" style="background:#1a2433;border:1px solid #233040;color:#f59e0b;padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer">Last 30 Days</button>
+          <button class="date-filter-btn" data-range="all" onclick="filterByDate('all',this)" style="background:#f59e0b;border:1px solid #f59e0b;color:#0b0f14;padding:6px 12px;border-radius:999px;font-size:12px;font-weight:700;cursor:pointer">All</button>
+        </div>
+        <script>
+        function filterByDate(range, btn) {
+          var rows = document.querySelectorAll('.result-row');
+          var cutoff = null;
+          if (range !== 'all') {
+            cutoff = new Date();
+            cutoff.setHours(0,0,0,0);
+            cutoff.setDate(cutoff.getDate() - range);
+          }
+          rows.forEach(function(row) {
+            if (cutoff === null) { row.style.display = 'flex'; return; }
+            var d = new Date(row.getAttribute('data-date') + 'T00:00:00');
+            row.style.display = (d >= cutoff) ? 'flex' : 'none';
+          });
+          document.querySelectorAll('.date-filter-btn').forEach(function(b) {
+            b.style.background = '#1a2433'; b.style.color = '#f59e0b'; b.style.fontWeight = 'normal';
+          });
+          btn.style.background = '#f59e0b'; btn.style.color = '#0b0f14'; btn.style.fontWeight = '700';
+        }
+        </script>
+  <div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>FC Cincinnati vs Columbus Crew <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (2)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>FC Cincinnati vs Columbus Crew <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
           <span style="color:#22c55e">HIT (2)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Real Madrid vs Sevilla <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (5)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Juventus vs Lazio <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>FC Twente vs FC Utrecht <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>FC Twente vs FC Utrecht <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>NEC Nijmegen vs Fortuna Sittard <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (4)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>PAOK vs Iraklis 1908 <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Sampdoria vs Arezzo <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Tromsø IL vs KFUM Oslo <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (2)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>AE Kifisia vs Aris Thessaloniki <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Málaga vs Real Sociedad <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (7)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>FC København vs AGF <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (2)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Milan vs Atalanta <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (5)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Borussia M'gladbach vs TSG Hoffenheim <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Borussia M'gladbach vs TSG Hoffenheim <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Nottingham Forest vs Arsenal <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#ef4444">MISS (1)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Cesena vs Avellino <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (2)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Molde FK vs IK Start <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (7)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Molde FK vs IK Start <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
           <span style="color:#22c55e">HIT (7)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Vålerenga IF vs SK Brann <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (4)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Sandefjord Fotball vs Lillestrøm SK <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (2)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>FC Groningen vs AFC Ajax <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (7)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>FC Groningen vs AFC Ajax <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
           <span style="color:#22c55e">HIT (7)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Panathinaikos vs Asteras Aktor <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (6)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Celta Vigo vs Deportivo Alavés <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Odense Boldklub vs Brøndby IF <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Panetolikos vs Olympiacos FC <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (2)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Bayer 04 Leverkusen vs SC Freiburg <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (3)</span>
-        </div><div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>Brighton & Hove Albion vs Crystal Palace <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
           <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Brighton & Hove Albion vs Crystal Palace <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Bournemouth vs Sunderland <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Fiorentina vs Como <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>PS Kalamata vs OFI Crete <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (7)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Leeds United vs Manchester United <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Juve Stabia vs Südtirol <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Sarpsborg 08 vs Rosenborg BK <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Sarpsborg 08 vs Rosenborg BK <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>SC Cambuur vs AZ Alkmaar <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Osasuna vs Racing de Santander <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Osasuna vs Racing de Santander <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Sønderjyske Fodbold vs Silkeborg IF <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Sønderjyske Fodbold vs Silkeborg IF <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Lyngby vs FC Nordsjælland <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (6)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Udinese vs Lecce <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>PEC Zwolle vs Go Ahead Eagles <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>PEC Zwolle vs Go Ahead Eagles <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Portland Timbers vs Colorado Rapids <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Portland Timbers vs Colorado Rapids <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Seattle Sounders FC vs CF Montréal <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-18" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>San Jose Earthquakes vs Nashville SC <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Sparta Rotterdam vs Willem II Tilburg <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Sparta Rotterdam vs Willem II Tilburg <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Valencia vs Athletic Club <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Roma vs Genoa <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>SC Telstar vs Feyenoord <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (7)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>SC Telstar vs Feyenoord <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (7)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Red Star FC vs Saint-Étienne <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Pisa vs Cremonese <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Real Betis vs Barcelona <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (7)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Real Betis vs Barcelona <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (7)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>FC Bayern München vs RB Leipzig <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (7)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Newcastle United vs Aston Villa <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Bologna vs Inter <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Viking FK vs Fredrikstad FK <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Mantova vs Palermo <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>ADO Den Haag vs PSV Eindhoven <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>ADO Den Haag vs PSV Eindhoven <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Villarreal vs Elche <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Kristiansund BK vs Aalesunds FK <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Kristiansund BK vs Aalesunds FK <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Manchester City vs Ipswich Town <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Manchester City vs Ipswich Town <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Southampton vs Bolton Wanderers <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Swansea City vs West Ham United <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Norwich City vs Portsmouth <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Derby County vs Stoke City <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Bristol City vs Sheffield United <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Wrexham vs Preston North End <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Brentford vs Liverpool <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Fulham vs Hull City <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>APO Levadiakos vs NPS Volos <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>West Bromwich Albion vs Blackburn Rovers <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>1. FC Union Berlin vs Borussia Dortmund <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>1. FC Union Berlin vs Borussia Dortmund <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#ef4444">MISS (0)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Hamburger SV vs VfB Stuttgart <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>SV 07 Elversberg vs FC Augsburg <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (7)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>FC Schalke 04 vs 1. FSV Mainz 05 <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>SV Werder Bremen vs SC Paderborn 07 <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Venezia vs Napoli <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Benevento vs L.R. Vicenza <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (4)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Padova vs Virtus Entella <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Ascoli vs Empoli <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Carrarese vs Modena <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (3)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>HamKam vs Bodø/Glimt <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>HamKam vs Bodø/Glimt <span style="color:#8b98a8">(Safest Pick (legacy))</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Espanyol vs Atlético Madrid <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#ef4444">MISS (1)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Nantes vs USL Dunkerque <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Metz vs Sochaux <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (5)</span>
+        </div><div class="result-row" data-date="2026-10-17" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+          <span>Everton vs Chelsea <span style="color:#8b98a8">(Match Over 1.5 Goals)</span></span>
+          <span style="color:#22c55e">HIT (2)</span>
         </div>
 </div>
 </body></html>
