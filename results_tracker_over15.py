@@ -194,14 +194,49 @@ def build_results_dashboard(log):
           <span><b style="color:#22c55e">{stats['hit']}W</b> / <b style="color:#ef4444">{stats['miss']}L</b> ({pct}%) · {stats['pending']} pending</span>
         </div>"""
 
-    recent = sorted([e for e in log if e["status"] == "settled"], key=lambda e: e["date"], reverse=True)[:30]
+    # Date filter on Recent results (user request, 2026-10-19). Pure
+    # client-side -- this page has no backend to query, so every row
+    # carries its fixture date as a data-date attribute (YYYY-MM-DD,
+    # sliced straight from the ISO date already on each entry) and a tiny
+    # inline script shows/hides rows by comparing that to the viewer's
+    # own clock when a filter button is clicked. Raised the cap from 30
+    # to 100 settled entries so "Last 30 days" has enough rows behind it
+    # to be useful, not just whatever happened to fit in 30 rows.
+    recent = sorted([e for e in log if e["status"] == "settled"], key=lambda e: e["date"], reverse=True)[:100]
     recent_rows = ""
     for e in recent:
         color = "#22c55e" if e["result"] == "hit" else "#ef4444"
-        recent_rows += f"""<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
+        row_date = e["date"][:10]
+        recent_rows += f"""<div class="result-row" data-date="{row_date}" style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2029;font-size:12px">
           <span>{e['match']} <span style="color:#8b98a8">({SCANNER_LABELS.get(e['scanner'], e['scanner'])})</span></span>
           <span style="color:{color}">{e['result'].upper()} ({e['actual_total']})</span>
         </div>"""
+
+    date_filter_bar = """<div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap">
+          <button class="date-filter-btn" data-range="7" onclick="filterByDate(7,this)" style="background:#1a2433;border:1px solid #233040;color:#f59e0b;padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer">Last 7 Days</button>
+          <button class="date-filter-btn" data-range="30" onclick="filterByDate(30,this)" style="background:#1a2433;border:1px solid #233040;color:#f59e0b;padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer">Last 30 Days</button>
+          <button class="date-filter-btn" data-range="all" onclick="filterByDate('all',this)" style="background:#f59e0b;border:1px solid #f59e0b;color:#0b0f14;padding:6px 12px;border-radius:999px;font-size:12px;font-weight:700;cursor:pointer">All</button>
+        </div>
+        <script>
+        function filterByDate(range, btn) {
+          var rows = document.querySelectorAll('.result-row');
+          var cutoff = null;
+          if (range !== 'all') {
+            cutoff = new Date();
+            cutoff.setHours(0,0,0,0);
+            cutoff.setDate(cutoff.getDate() - range);
+          }
+          rows.forEach(function(row) {
+            if (cutoff === null) { row.style.display = 'flex'; return; }
+            var d = new Date(row.getAttribute('data-date') + 'T00:00:00');
+            row.style.display = (d >= cutoff) ? 'flex' : 'none';
+          });
+          document.querySelectorAll('.date-filter-btn').forEach(function(b) {
+            b.style.background = '#1a2433'; b.style.color = '#f59e0b'; b.style.fontWeight = 'normal';
+          });
+          btn.style.background = '#f59e0b'; btn.style.color = '#0b0f14'; btn.style.fontWeight = '700';
+        }
+        </script>"""
 
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Over IQ — Results</title></head>
@@ -218,6 +253,7 @@ def build_results_dashboard(log):
 </div>
 <div style="background:#121820;border:1px solid #233040;border-radius:12px;padding:14px;margin:14px 0">
   <div style="font-weight:700;margin-bottom:6px">Recent results</div>
+  {date_filter_bar}
   {recent_rows if recent_rows else '<p style="color:#888">No settled results yet.</p>'}
 </div>
 </body></html>"""
