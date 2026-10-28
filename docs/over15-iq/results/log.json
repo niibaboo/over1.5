@@ -2725,9 +2725,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 80,
     "exp_total": 3.02,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_899709245",
@@ -2738,9 +2738,9 @@
     "date": "2026-10-24T11:30:00.000Z",
     "prob": 80,
     "exp_total": 3.01,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_511941665",
@@ -2751,9 +2751,9 @@
     "date": "2026-10-24T11:30:00.000Z",
     "prob": 79,
     "exp_total": 2.91,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_155684144",
@@ -2764,9 +2764,9 @@
     "date": "2026-10-24T13:00:00.000Z",
     "prob": 79,
     "exp_total": 2.9,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_733753390",
@@ -2777,9 +2777,9 @@
     "date": "2026-10-24T17:00:00.000Z",
     "prob": 78,
     "exp_total": 2.84,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_894589645",
@@ -2790,9 +2790,9 @@
     "date": "2026-10-24T17:30:00.000Z",
     "prob": 78,
     "exp_total": 2.89,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_153015737",
@@ -2803,9 +2803,9 @@
     "date": "2026-10-24T23:30:00.000Z",
     "prob": 77,
     "exp_total": 2.82,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_206555005",
@@ -2816,9 +2816,9 @@
     "date": "2026-10-24T13:00:00.000Z",
     "prob": 77,
     "exp_total": 2.83,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_643222425",
@@ -2829,9 +2829,9 @@
     "date": "2026-10-24T17:30:00.000Z",
     "prob": 75,
     "exp_total": 2.7,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_024111223",
@@ -2842,9 +2842,9 @@
     "date": "2026-10-24T13:00:00.000Z",
     "prob": 75,
     "exp_total": 2.69,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_981777888",
@@ -2855,9 +2855,9 @@
     "date": "2026-10-24T13:00:00.000Z",
     "prob": 75,
     "exp_total": 2.68,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_733653125",
@@ -2868,9 +2868,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 74,
     "exp_total": 2.66,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_466286955",
@@ -2881,9 +2881,9 @@
     "date": "2026-10-24T11:30:00.000Z",
     "prob": 74,
     "exp_total": 2.63,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_155865446",
@@ -2894,9 +2894,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 73,
     "exp_total": 2.57,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_899837376",
@@ -2907,9 +2907,9 @@
     "date": "2026-10-24T13:30:00.000Z",
     "prob": 73,
     "exp_total": 2.58,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_377364641",
@@ -2920,9 +2920,9 @@
     "date": "2026-10-24T13:30:00.000Z",
     "prob": 73,
     "exp_total": 2.59,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_378666764",
@@ -2933,9 +2933,9 @@
     "date": "2026-10-24T13:00:00.000Z",
     "prob": 73,
     "exp_total": 2.58,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_022532787",
@@ -2946,9 +2946,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 72,
     "exp_total": 2.56,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_022588724",
@@ -2959,9 +2959,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 71,
     "exp_total": 2.48,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_732973025",
@@ -2972,9 +2972,9 @@
     "date": "2026-10-24T21:30:00.000Z",
     "prob": 71,
     "exp_total": 2.5,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_511496561",
@@ -2985,9 +2985,9 @@
     "date": "2026-10-24T18:45:00.000Z",
     "prob": 71,
     "exp_total": 2.48,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_644908685",
@@ -2998,9 +2998,9 @@
     "date": "2026-10-24T16:00:00.000Z",
     "prob": 71,
     "exp_total": 2.51,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 6
   },
   {
     "id": "over15:mt_895333938",
@@ -3011,9 +3011,9 @@
     "date": "2026-10-24T15:15:00.000Z",
     "prob": 68,
     "exp_total": 2.37,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "over15:mt_377417507",
@@ -3024,9 +3024,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 65,
     "exp_total": 2.22,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_200199309",
@@ -3037,9 +3037,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 62,
     "exp_total": 2.1,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_466486686",
@@ -3050,9 +3050,9 @@
     "date": "2026-10-24T11:00:00.000Z",
     "prob": 62,
     "exp_total": 2.1,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_988928820",
@@ -3063,9 +3063,9 @@
     "date": "2026-10-24T19:30:00.000Z",
     "prob": 61,
     "exp_total": 2.07,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_644094812",
@@ -3076,9 +3076,9 @@
     "date": "2026-10-24T14:00:00.000Z",
     "prob": 59,
     "exp_total": 1.98,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_739237779",
@@ -3089,9 +3089,9 @@
     "date": "2026-10-24T16:00:00.000Z",
     "prob": 59,
     "exp_total": 1.98,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_988311810",
@@ -3115,9 +3115,9 @@
     "date": "2026-10-24T13:00:00.000Z",
     "prob": 57,
     "exp_total": 1.91,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_895498873",
@@ -3128,9 +3128,9 @@
     "date": "2026-10-24T16:30:00.000Z",
     "prob": 57,
     "exp_total": 1.93,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_899072787",
@@ -3141,9 +3141,9 @@
     "date": "2026-10-24T13:00:00.000Z",
     "prob": 47,
     "exp_total": 1.58,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_511385243",
@@ -3154,9 +3154,9 @@
     "date": "2026-10-25T15:45:00.000Z",
     "prob": 96,
     "exp_total": 4.92,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_511385243",
@@ -3167,9 +3167,9 @@
     "date": "2026-10-25T15:45:00.000Z",
     "prob": 96,
     "exp_total": 4.92,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_155673318",
@@ -3180,9 +3180,9 @@
     "date": "2026-10-25T15:00:00.000Z",
     "prob": 96,
     "exp_total": 5.13,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 6
   },
   {
     "id": "safest:mt_155673318",
@@ -3193,9 +3193,9 @@
     "date": "2026-10-25T15:00:00.000Z",
     "prob": 96,
     "exp_total": 5.13,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 6
   },
   {
     "id": "over15:mt_899837387",
@@ -3206,9 +3206,9 @@
     "date": "2026-10-25T14:30:00.000Z",
     "prob": 95,
     "exp_total": 4.68,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_899837387",
@@ -3219,9 +3219,9 @@
     "date": "2026-10-25T14:30:00.000Z",
     "prob": 95,
     "exp_total": 4.68,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_988230907",
@@ -3232,9 +3232,9 @@
     "date": "2026-10-25T11:30:00.000Z",
     "prob": 95,
     "exp_total": 4.71,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_988230907",
@@ -3245,9 +3245,9 @@
     "date": "2026-10-25T11:30:00.000Z",
     "prob": 95,
     "exp_total": 4.71,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_155791065",
@@ -3258,9 +3258,9 @@
     "date": "2026-10-25T13:30:00.000Z",
     "prob": 93,
     "exp_total": 4.3,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "safest:mt_155791065",
@@ -3271,9 +3271,9 @@
     "date": "2026-10-25T13:30:00.000Z",
     "prob": 93,
     "exp_total": 4.3,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_899973374",
@@ -3284,9 +3284,9 @@
     "date": "2026-10-25T13:30:00.000Z",
     "prob": 93,
     "exp_total": 4.29,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "safest:mt_899973374",
@@ -3297,9 +3297,9 @@
     "date": "2026-10-25T13:30:00.000Z",
     "prob": 93,
     "exp_total": 4.29,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_155148050",
@@ -3310,9 +3310,9 @@
     "date": "2026-10-25T20:00:00.000Z",
     "prob": 92,
     "exp_total": 4.14,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_155148050",
@@ -3323,9 +3323,9 @@
     "date": "2026-10-25T20:00:00.000Z",
     "prob": 92,
     "exp_total": 4.14,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_986198480",
@@ -3336,9 +3336,9 @@
     "date": "2026-10-25T02:30:00.000Z",
     "prob": 92,
     "exp_total": 4.16,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "safest:mt_986198480",
@@ -3349,9 +3349,9 @@
     "date": "2026-10-25T02:30:00.000Z",
     "prob": 92,
     "exp_total": 4.16,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_641364524",
@@ -3362,9 +3362,9 @@
     "date": "2026-10-25T00:30:00.000Z",
     "prob": 92,
     "exp_total": 4.13,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_641364524",
@@ -3375,9 +3375,9 @@
     "date": "2026-10-25T00:30:00.000Z",
     "prob": 92,
     "exp_total": 4.13,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_644088569",
@@ -3388,9 +3388,9 @@
     "date": "2026-10-25T15:30:00.000Z",
     "prob": 92,
     "exp_total": 4.18,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "safest:mt_644088569",
@@ -3401,9 +3401,9 @@
     "date": "2026-10-25T15:30:00.000Z",
     "prob": 92,
     "exp_total": 4.18,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_377263820",
@@ -3414,9 +3414,9 @@
     "date": "2026-10-25T13:30:00.000Z",
     "prob": 91,
     "exp_total": 3.97,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "safest:mt_377263820",
@@ -3427,9 +3427,9 @@
     "date": "2026-10-25T13:30:00.000Z",
     "prob": 91,
     "exp_total": 3.97,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_644680331",
@@ -3440,9 +3440,9 @@
     "date": "2026-10-25T17:30:00.000Z",
     "prob": 91,
     "exp_total": 3.98,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "safest:mt_644680331",
@@ -3453,9 +3453,9 @@
     "date": "2026-10-25T17:30:00.000Z",
     "prob": 91,
     "exp_total": 3.98,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_517251386",
@@ -5717,6 +5717,706 @@
     "prob": 44,
     "exp_total": 1.49,
     "odds": 2.27,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_466829402",
+    "scanner": "over15",
+    "match_id": "mt_466829402",
+    "match": "Milan vs Inter",
+    "league": "Serie A",
+    "date": "2026-10-31T19:45:00.000Z",
+    "prob": 83,
+    "exp_total": 3.24,
+    "odds": 1.2,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644694459",
+    "scanner": "over15",
+    "match_id": "mt_644694459",
+    "match": "Benfica vs FC Alverca",
+    "league": "Liga Portugal Betclic",
+    "date": "2026-11-02T20:15:00.000Z",
+    "prob": 82,
+    "exp_total": 3.13,
+    "odds": 1.22,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_735610910",
+    "scanner": "over15",
+    "match_id": "mt_735610910",
+    "match": "Stade de Reims vs Sochaux",
+    "league": "Ligue 2",
+    "date": "2026-11-02T19:45:00.000Z",
+    "prob": 76,
+    "exp_total": 2.74,
+    "odds": 1.32,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377145380",
+    "scanner": "over15",
+    "match_id": "mt_377145380",
+    "match": "Venezia vs Udinese",
+    "league": "Serie A",
+    "date": "2026-11-06T19:45:00.000Z",
+    "prob": 81,
+    "exp_total": 3.06,
+    "odds": 1.23,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_200170379",
+    "scanner": "over15",
+    "match_id": "mt_200170379",
+    "match": "Derby County vs Bolton Wanderers",
+    "league": "Championship",
+    "date": "2026-11-06T20:00:00.000Z",
+    "prob": 79,
+    "exp_total": 2.91,
+    "odds": 1.27,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_466277676",
+    "scanner": "over15",
+    "match_id": "mt_466277676",
+    "match": "USL Dunkerque vs Guingamp",
+    "league": "Ligue 2",
+    "date": "2026-11-06T19:00:00.000Z",
+    "prob": 78,
+    "exp_total": 2.88,
+    "odds": 1.28,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_643222458",
+    "scanner": "over15",
+    "match_id": "mt_643222458",
+    "match": "Ascoli vs Palermo",
+    "league": "Serie B",
+    "date": "2026-11-06T19:30:00.000Z",
+    "prob": 77,
+    "exp_total": 2.79,
+    "odds": 1.3,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_022544241",
+    "scanner": "over15",
+    "match_id": "mt_022544241",
+    "match": "Grenoble Foot 38 vs Stade de Reims",
+    "league": "Ligue 2",
+    "date": "2026-11-06T19:00:00.000Z",
+    "prob": 76,
+    "exp_total": 2.74,
+    "odds": 1.32,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377488781",
+    "scanner": "over15",
+    "match_id": "mt_377488781",
+    "match": "Nancy vs Sochaux",
+    "league": "Ligue 2",
+    "date": "2026-11-06T19:00:00.000Z",
+    "prob": 68,
+    "exp_total": 2.36,
+    "odds": 1.47,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_022588739",
+    "scanner": "over15",
+    "match_id": "mt_022588739",
+    "match": "Everton vs Coventry City",
+    "league": "Premier League",
+    "date": "2026-11-06T20:00:00.000Z",
+    "prob": 63,
+    "exp_total": 2.15,
+    "odds": 1.59,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377488800",
+    "scanner": "over15",
+    "match_id": "mt_377488800",
+    "match": "US Boulogne C\u00f4te-d'Opale vs Annecy FC",
+    "league": "Ligue 2",
+    "date": "2026-11-06T19:00:00.000Z",
+    "prob": 57,
+    "exp_total": 1.91,
+    "odds": 1.75,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377263846",
+    "scanner": "over15",
+    "match_id": "mt_377263846",
+    "match": "Fortuna Sittard vs SC Telstar",
+    "league": "Eredivisie",
+    "date": "2026-11-07T15:30:00.000Z",
+    "prob": 82,
+    "exp_total": 3.11,
+    "odds": 1.22,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_022032254",
+    "scanner": "over15",
+    "match_id": "mt_022032254",
+    "match": "Sporting vs Moreirense",
+    "league": "Liga Portugal Betclic",
+    "date": "2026-11-07T20:30:00.000Z",
+    "prob": 82,
+    "exp_total": 3.13,
+    "odds": 1.22,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_200270019",
+    "scanner": "over15",
+    "match_id": "mt_200270019",
+    "match": "CD Nacional vs Acad\u00e9mico Viseu FC",
+    "league": "Liga Portugal Betclic",
+    "date": "2026-11-07T15:30:00.000Z",
+    "prob": 82,
+    "exp_total": 3.1,
+    "odds": 1.22,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_466492710",
+    "scanner": "over15",
+    "match_id": "mt_466492710",
+    "match": "Valencia vs Real Madrid",
+    "league": "LaLiga",
+    "date": "2026-11-07T20:00:00.000Z",
+    "prob": 82,
+    "exp_total": 3.14,
+    "odds": 1.22,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_732973001",
+    "scanner": "over15",
+    "match_id": "mt_732973001",
+    "match": "Chicago Fire vs Columbus Crew",
+    "league": "MLS",
+    "date": "2026-11-07T21:00:00.000Z",
+    "prob": 82,
+    "exp_total": 3.12,
+    "odds": 1.22,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644680354",
+    "scanner": "over15",
+    "match_id": "mt_644680354",
+    "match": "Osasuna vs Athletic Club",
+    "league": "LaLiga",
+    "date": "2026-11-07T17:30:00.000Z",
+    "prob": 81,
+    "exp_total": 3.07,
+    "odds": 1.23,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644908638",
+    "scanner": "over15",
+    "match_id": "mt_644908638",
+    "match": "Torino vs Lecce",
+    "league": "Serie A",
+    "date": "2026-11-07T14:00:00.000Z",
+    "prob": 81,
+    "exp_total": 3.08,
+    "odds": 1.23,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_512888139",
+    "scanner": "over15",
+    "match_id": "mt_512888139",
+    "match": "Mantova vs Hellas Verona",
+    "league": "Serie B",
+    "date": "2026-11-07T16:15:00.000Z",
+    "prob": 81,
+    "exp_total": 3.08,
+    "odds": 1.23,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_206902228",
+    "scanner": "over15",
+    "match_id": "mt_206902228",
+    "match": "Aris Thessaloniki vs Panetolikos",
+    "league": "Stoiximan Super League",
+    "date": "2026-11-07T17:30:00.000Z",
+    "prob": 81,
+    "exp_total": 3.03,
+    "odds": 1.23,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_733622104",
+    "scanner": "over15",
+    "match_id": "mt_733622104",
+    "match": "Nottingham Forest vs Manchester City",
+    "league": "Premier League",
+    "date": "2026-11-07T17:30:00.000Z",
+    "prob": 80,
+    "exp_total": 3.0,
+    "odds": 1.25,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_511941641",
+    "scanner": "over15",
+    "match_id": "mt_511941641",
+    "match": "Preston North End vs Southampton",
+    "league": "Championship",
+    "date": "2026-11-07T15:00:00.000Z",
+    "prob": 80,
+    "exp_total": 2.99,
+    "odds": 1.25,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_028402993",
+    "scanner": "over15",
+    "match_id": "mt_028402993",
+    "match": "DC United vs New York City FC",
+    "league": "MLS",
+    "date": "2026-11-07T21:00:00.000Z",
+    "prob": 80,
+    "exp_total": 2.99,
+    "odds": 1.25,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644033318",
+    "scanner": "over15",
+    "match_id": "mt_644033318",
+    "match": "Clermont Foot vs Rodez AF",
+    "league": "Ligue 2",
+    "date": "2026-11-07T13:00:00.000Z",
+    "prob": 80,
+    "exp_total": 2.98,
+    "odds": 1.25,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644094839",
+    "scanner": "over15",
+    "match_id": "mt_644094839",
+    "match": "Birmingham City vs Swansea City",
+    "league": "Championship",
+    "date": "2026-11-07T15:00:00.000Z",
+    "prob": 79,
+    "exp_total": 2.92,
+    "odds": 1.27,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644620269",
+    "scanner": "over15",
+    "match_id": "mt_644620269",
+    "match": "Borussia Dortmund vs SV 07 Elversberg",
+    "league": "Bundesliga",
+    "date": "2026-11-07T14:30:00.000Z",
+    "prob": 78,
+    "exp_total": 2.89,
+    "odds": 1.28,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_467000629",
+    "scanner": "over15",
+    "match_id": "mt_467000629",
+    "match": "Pisa vs S\u00fcdtirol",
+    "league": "Serie B",
+    "date": "2026-11-07T14:00:00.000Z",
+    "prob": 78,
+    "exp_total": 2.88,
+    "odds": 1.28,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_739444303",
+    "scanner": "over15",
+    "match_id": "mt_739444303",
+    "match": "Cesena vs Catanzaro",
+    "league": "Serie B",
+    "date": "2026-11-07T14:00:00.000Z",
+    "prob": 78,
+    "exp_total": 2.89,
+    "odds": 1.28,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377488712",
+    "scanner": "over15",
+    "match_id": "mt_377488712",
+    "match": "Montpellier vs Metz",
+    "league": "Ligue 2",
+    "date": "2026-11-07T13:00:00.000Z",
+    "prob": 77,
+    "exp_total": 2.81,
+    "odds": 1.3,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_206555087",
+    "scanner": "over15",
+    "match_id": "mt_206555087",
+    "match": "Juve Stabia vs Arezzo",
+    "league": "Serie B",
+    "date": "2026-11-07T14:00:00.000Z",
+    "prob": 76,
+    "exp_total": 2.77,
+    "odds": 1.32,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644620485",
+    "scanner": "over15",
+    "match_id": "mt_644620485",
+    "match": "SC Paderborn 07 vs Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "date": "2026-11-07T14:30:00.000Z",
+    "prob": 75,
+    "exp_total": 2.67,
+    "odds": 1.33,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377120602",
+    "scanner": "over15",
+    "match_id": "mt_377120602",
+    "match": "Odense Boldklub vs Viborg FF",
+    "league": "Danish Superliga",
+    "date": "2026-11-07T17:00:00.000Z",
+    "prob": 75,
+    "exp_total": 2.68,
+    "odds": 1.33,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_466277687",
+    "scanner": "over15",
+    "match_id": "mt_466277687",
+    "match": "Pau FC vs Nantes",
+    "league": "Ligue 2",
+    "date": "2026-11-07T19:00:00.000Z",
+    "prob": 74,
+    "exp_total": 2.63,
+    "odds": 1.35,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_732973062",
+    "scanner": "over15",
+    "match_id": "mt_732973062",
+    "match": "New York Red Bulls vs Atlanta United",
+    "league": "MLS",
+    "date": "2026-11-07T21:00:00.000Z",
+    "prob": 72,
+    "exp_total": 2.54,
+    "odds": 1.39,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_024847777",
+    "scanner": "over15",
+    "match_id": "mt_024847777",
+    "match": "NPS Volos vs AE Kifisia",
+    "league": "Stoiximan Super League",
+    "date": "2026-11-07T15:00:00.000Z",
+    "prob": 71,
+    "exp_total": 2.49,
+    "odds": 1.41,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_644094895",
+    "scanner": "over15",
+    "match_id": "mt_644094895",
+    "match": "West Bromwich Albion vs Millwall",
+    "league": "Championship",
+    "date": "2026-11-07T15:00:00.000Z",
+    "prob": 70,
+    "exp_total": 2.44,
+    "odds": 1.43,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377417514",
+    "scanner": "over15",
+    "match_id": "mt_377417514",
+    "match": "Wrexham vs Wolverhampton",
+    "league": "Championship",
+    "date": "2026-11-07T12:30:00.000Z",
+    "prob": 69,
+    "exp_total": 2.39,
+    "odds": 1.45,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_465746111",
+    "scanner": "over15",
+    "match_id": "mt_465746111",
+    "match": "CF Montr\u00e9al vs Vancouver Whitecaps",
+    "league": "MLS",
+    "date": "2026-11-07T21:00:00.000Z",
+    "prob": 69,
+    "exp_total": 2.38,
+    "odds": 1.45,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_466255982",
+    "scanner": "over15",
+    "match_id": "mt_466255982",
+    "match": "Fulham vs Newcastle United",
+    "league": "Premier League",
+    "date": "2026-11-07T15:00:00.000Z",
+    "prob": 68,
+    "exp_total": 2.33,
+    "odds": 1.47,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_022357025",
+    "scanner": "over15",
+    "match_id": "mt_022357025",
+    "match": "Parma vs Bologna",
+    "league": "Serie A",
+    "date": "2026-11-07T17:00:00.000Z",
+    "prob": 68,
+    "exp_total": 2.34,
+    "odds": 1.47,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_155865464",
+    "scanner": "over15",
+    "match_id": "mt_155865464",
+    "match": "Charlton Athletic vs Sheffield United",
+    "league": "Championship",
+    "date": "2026-11-07T15:00:00.000Z",
+    "prob": 67,
+    "exp_total": 2.3,
+    "odds": 1.49,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_899709257",
+    "scanner": "over15",
+    "match_id": "mt_899709257",
+    "match": "Bristol City vs Norwich City",
+    "league": "Championship",
+    "date": "2026-11-07T12:30:00.000Z",
+    "prob": 67,
+    "exp_total": 2.31,
+    "odds": 1.49,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377317722",
+    "scanner": "over15",
+    "match_id": "mt_377317722",
+    "match": "FC Alverca vs Casa Pia",
+    "league": "Liga Portugal Betclic",
+    "date": "2026-11-07T18:00:00.000Z",
+    "prob": 67,
+    "exp_total": 2.31,
+    "odds": 1.49,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_899827560",
+    "scanner": "over15",
+    "match_id": "mt_899827560",
+    "match": "Espanyol vs Deportivo La Coru\u00f1a",
+    "league": "LaLiga",
+    "date": "2026-11-07T15:15:00.000Z",
+    "prob": 67,
+    "exp_total": 2.31,
+    "odds": 1.49,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_378666720",
+    "scanner": "over15",
+    "match_id": "mt_378666720",
+    "match": "Benevento vs Avellino",
+    "league": "Serie B",
+    "date": "2026-11-07T18:30:00.000Z",
+    "prob": 67,
+    "exp_total": 2.32,
+    "odds": 1.49,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_024111290",
+    "scanner": "over15",
+    "match_id": "mt_024111290",
+    "match": "Padova vs Empoli",
+    "league": "Serie B",
+    "date": "2026-11-07T14:00:00.000Z",
+    "prob": 67,
+    "exp_total": 2.29,
+    "odds": 1.49,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_982061326",
+    "scanner": "over15",
+    "match_id": "mt_982061326",
+    "match": "Grasshopper Club Z\u00fcrich vs FC Lausanne-Sport",
+    "league": "Swiss Super League",
+    "date": "2026-11-07T19:30:00.000Z",
+    "prob": 66,
+    "exp_total": 2.26,
+    "odds": 1.52,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_988328027",
+    "scanner": "over15",
+    "match_id": "mt_988328027",
+    "match": "Portsmouth vs Stoke City",
+    "league": "Championship",
+    "date": "2026-11-07T12:30:00.000Z",
+    "prob": 64,
+    "exp_total": 2.17,
+    "odds": 1.56,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_200199370",
+    "scanner": "over15",
+    "match_id": "mt_200199370",
+    "match": "Arsenal vs Hull City",
+    "league": "Premier League",
+    "date": "2026-11-07T15:00:00.000Z",
+    "prob": 59,
+    "exp_total": 1.97,
+    "odds": 1.69,
+    "status": "pending",
+    "result": null,
+    "actual_total": null
+  },
+  {
+    "id": "over15:mt_377400525",
+    "scanner": "over15",
+    "match_id": "mt_377400525",
+    "match": "Leeds United vs Tottenham Hotspur",
+    "league": "Premier League",
+    "date": "2026-11-07T12:30:00.000Z",
+    "prob": 56,
+    "exp_total": 1.87,
+    "odds": 1.79,
     "status": "pending",
     "result": null,
     "actual_total": null
