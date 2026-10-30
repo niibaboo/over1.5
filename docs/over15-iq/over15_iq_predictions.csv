@@ -1,69 +1,61 @@
 Date,League,HomeTeam,AwayTeam,ExpHome,ExpAway,ExpTotal,Over15Pct,ImpliedOdds
-2026-10-28T19:00:00.000Z,Serie B,Juve Stabia,Hellas Verona,1.46,1.48,2.94,79,1.27
-2026-10-28T19:45:00.000Z,Serie A,Genoa,Juventus,0.87,1.47,2.34,68,1.47
-2026-10-28T19:00:00.000Z,Serie B,Carrarese,Arezzo,1.5,0.82,2.32,67,1.49
 2026-10-30T19:00:00.000Z,Ligue 2,Rodez AF,USL Dunkerque,1.25,1.73,2.98,80,1.25
 2026-10-30T20:15:00.000Z,Liga Portugal Betclic,Casa Pia,Sporting,0.74,1.92,2.66,74,1.35
 2026-10-30T20:00:00.000Z,LaLiga,Villarreal,Espanyol,1.49,1.03,2.52,72,1.39
 2026-10-30T19:00:00.000Z,Ligue 2,Stade Lavallois,US Boulogne Côte-d'Opale,0.87,1.49,2.36,68,1.47
 2026-10-30T19:00:00.000Z,Ligue 2,Nantes,Clermont Foot,1.25,1.07,2.32,67,1.49
-2026-10-31T19:45:00.000Z,Serie A,Milan,Inter,1.63,1.61,3.24,83,1.2
+2026-10-31T17:00:00.000Z,Serie A,Udinese,Roma,0.78,2.46,3.24,83,1.2
 2026-10-31T13:00:00.000Z,LaLiga,Levante UD,Atlético Madrid,0.98,2.15,3.13,82,1.22
-2026-10-31T14:00:00.000Z,Serie A,Bologna,Monza,1.5,1.63,3.13,82,1.22
 2026-10-31T14:30:00.000Z,Bundesliga,Borussia M'gladbach,SC Paderborn 07,1.32,1.75,3.07,81,1.23
 2026-10-31T15:30:00.000Z,Liga Portugal Betclic,Moreirense,CF Estrela Amadora,1.63,1.45,3.08,81,1.23
 2026-10-31T17:30:00.000Z,Premier League,Tottenham Hotspur,Crystal Palace,1.85,1.07,2.92,79,1.27
 2026-10-31T20:30:00.000Z,Liga Portugal Betclic,FC Porto,Estoril Praia,2.48,0.48,2.96,79,1.27
 2026-10-31T15:00:00.000Z,Premier League,Hull City,Ipswich Town,1.54,1.24,2.78,77,1.3
-2026-10-31T18:30:00.000Z,Serie B,Sampdoria,Virtus Entella,0.82,1.99,2.81,77,1.3
+2026-10-31T18:30:00.000Z,Serie B,Sampdoria,Virtus Entella,0.83,1.98,2.81,77,1.3
 2026-10-31T17:30:00.000Z,LaLiga,Real Betis,Málaga,1.81,0.94,2.75,76,1.32
 2026-10-31T17:30:00.000Z,Bundesliga,FC Bayern München,Borussia Dortmund,1.59,1.11,2.7,75,1.33
-2026-10-31T16:15:00.000Z,Serie B,Catanzaro,Padova,1.07,1.65,2.72,75,1.33
+2026-10-31T16:15:00.000Z,Serie B,Catanzaro,Padova,1.07,1.64,2.71,75,1.33
 2026-10-31T15:15:00.000Z,LaLiga,Rayo Vallecano,Celta Vigo,0.72,1.93,2.65,74,1.35
 2026-10-31T17:00:00.000Z,Swiss Super League,FC St. Gallen 1879,Servette FC,0.99,1.67,2.66,74,1.35
 2026-10-31T17:00:00.000Z,Eliteserien,Aalesunds FK,Sandefjord Fotball,1.42,1.23,2.65,74,1.35
 2026-10-31T14:30:00.000Z,Bundesliga,FC Schalke 04,RB Leipzig,0.85,1.76,2.61,73,1.37
-2026-10-31T14:00:00.000Z,Serie B,Modena,Mantova,1.44,1.17,2.61,73,1.37
-2026-10-31T21:00:00.000Z,MLS,San Jose Earthquakes,Real Salt Lake,1.19,1.36,2.55,72,1.39
+2026-10-31T14:00:00.000Z,Serie B,Modena,Mantova,1.43,1.17,2.6,73,1.37
 2026-10-31T15:00:00.000Z,Premier League,Brentford,Nottingham Forest,1.45,0.97,2.42,70,1.43
 2026-10-31T15:00:00.000Z,Premier League,Bournemouth,Leeds United,1.12,1.33,2.45,70,1.43
-2026-10-31T14:00:00.000Z,Serie B,Südtirol,Cesena,1.35,0.99,2.34,68,1.47
+2026-10-31T14:00:00.000Z,Serie B,Südtirol,Cesena,1.34,0.98,2.32,67,1.49
 2026-10-31T13:00:00.000Z,Ligue 2,Annecy FC,Montpellier,0.94,1.36,2.3,67,1.49
 2026-10-31T15:00:00.000Z,Premier League,Coventry City,Sunderland,1.18,1.06,2.24,66,1.52
-2026-10-31T14:00:00.000Z,Serie B,Cremonese,Benevento,0.81,1.32,2.13,63,1.59
 2026-10-31T17:00:00.000Z,Stoiximan Super League,AE Kifisia,Olympiacos FC,0.59,1.56,2.15,63,1.59
+2026-10-31T14:00:00.000Z,Serie B,Cremonese,Benevento,0.8,1.31,2.11,62,1.61
 2026-10-31T20:00:00.000Z,Premier League,Aston Villa,Fulham,1.07,0.89,1.96,58,1.72
-2026-11-01T14:00:00.000Z,Serie B,Arezzo,Ascoli,0.6,2.55,3.15,82,1.22
 2026-11-01T16:00:00.000Z,Stoiximan Super League,Panetolikos,OFI Crete,1.06,2.11,3.17,82,1.22
-2026-11-01T11:30:00.000Z,Serie A,Como,Venezia,2.35,0.73,3.08,81,1.23
+2026-11-01T11:30:00.000Z,Serie A,Como,Venezia,2.33,0.74,3.07,81,1.23
 2026-11-01T13:30:00.000Z,Eredivisie,Excelsior,FC Twente,0.98,2.02,3.0,80,1.25
-2026-11-01T14:00:00.000Z,Serie B,Avellino,Pisa,1.27,1.71,2.98,80,1.25
 2026-11-01T17:00:00.000Z,Stoiximan Super League,PAOK,Asteras Aktor,1.88,1.12,3.0,80,1.25
+2026-11-01T14:00:00.000Z,Serie B,Arezzo,Ascoli,0.54,2.42,2.96,79,1.27
 2026-11-01T18:00:00.000Z,Liga Portugal Betclic,Marítimo,Santa Clara,0.6,2.27,2.87,78,1.28
 2026-11-01T20:00:00.000Z,LaLiga,Athletic Club,Real Sociedad,1.7,1.16,2.86,78,1.28
+2026-11-01T19:45:00.000Z,Serie A,Juventus,Napoli,1.11,1.74,2.85,78,1.28
 2026-11-01T14:30:00.000Z,Bundesliga,1. FC Union Berlin,1. FC Köln,1.05,1.74,2.79,77,1.3
 2026-11-01T13:00:00.000Z,Danish Superliga,Odense Boldklub,Silkeborg IF,1.25,1.58,2.83,77,1.3
-2026-11-01T01:30:00.000Z,MLS,Colorado Rapids,Chicago Fire,1.46,1.28,2.74,76,1.32
+2026-11-01T17:00:00.000Z,Serie A,Lecce,Genoa,1.18,1.59,2.77,76,1.32
 2026-11-01T17:30:00.000Z,LaLiga,Elche,Valencia,1.8,0.87,2.67,75,1.33
-2026-11-01T19:45:00.000Z,Serie A,Juventus,Napoli,1.38,1.26,2.64,74,1.35
-2026-11-01T21:30:00.000Z,MLS,Nashville SC,New York Red Bulls,1.81,0.76,2.57,73,1.37
-2026-11-01T16:15:00.000Z,Serie B,Hellas Verona,Carrarese,1.48,1.12,2.6,73,1.37
-2026-11-01T21:30:00.000Z,MLS,Vancouver Whitecaps,Seattle Sounders FC,1.0,1.53,2.53,72,1.39
+2026-11-01T21:30:00.000Z,MLS,Nashville SC,New York Red Bulls,2.05,0.63,2.68,75,1.33
+2026-11-01T16:15:00.000Z,Serie B,Hellas Verona,Carrarese,1.47,1.15,2.62,74,1.35
 2026-11-01T15:30:00.000Z,Swiss Super League,FC Lausanne-Sport,FC Thun,1.0,1.56,2.56,72,1.39
 2026-11-01T17:30:00.000Z,Stoiximan Super League,Panathinaikos,AEK Athens,1.04,1.48,2.52,72,1.39
 2026-11-01T20:30:00.000Z,Liga Portugal Betclic,Sporting Braga,Famalicão,0.89,1.54,2.43,70,1.43
 2026-11-01T15:30:00.000Z,Liga Portugal Betclic,FC Arouca,CD Nacional,1.63,0.82,2.45,70,1.43
-2026-11-01T17:00:00.000Z,Serie A,Lecce,Genoa,1.17,1.28,2.45,70,1.43
-2026-11-01T14:00:00.000Z,Serie B,Empoli,Juve Stabia,0.82,1.56,2.38,69,1.45
 2026-11-01T13:00:00.000Z,LaLiga,Getafe,Sevilla,0.87,1.49,2.36,68,1.47
+2026-11-01T14:00:00.000Z,Serie B,Empoli,Juve Stabia,0.83,1.31,2.14,63,1.59
 2026-11-01T16:30:00.000Z,Premier League,Liverpool,Arsenal,0.87,1.04,1.91,57,1.75
 2026-11-01T15:00:00.000Z,Stoiximan Super League,APO Levadiakos,Aris Thessaloniki,0.49,1.15,1.64,49,2.04
 2026-11-02T20:15:00.000Z,Liga Portugal Betclic,Benfica,FC Alverca,2.02,1.11,3.13,82,1.22
-2026-11-02T19:45:00.000Z,Serie A,Atalanta,Parma,1.98,1.14,3.12,82,1.22
+2026-11-02T02:45:00.000Z,MLS,Portland Timbers,Houston Dynamo,1.46,1.64,3.1,82,1.22
+2026-11-02T19:45:00.000Z,Serie A,Atalanta,Parma,1.88,1.28,3.16,82,1.22
 2026-11-02T20:00:00.000Z,LaLiga,Deportivo La Coruña,Osasuna,1.95,1.11,3.06,81,1.23
 2026-11-02T17:30:00.000Z,Stoiximan Super League,PS Kalamata,Iraklis 1908,1.23,1.74,2.97,80,1.25
 2026-11-02T19:45:00.000Z,Ligue 2,Red Star FC,Nancy,1.23,1.68,2.91,79,1.27
-2026-11-02T02:45:00.000Z,MLS,Portland Timbers,Houston Dynamo,1.33,1.53,2.86,78,1.28
 2026-11-02T19:45:00.000Z,Ligue 2,Stade de Reims,Sochaux,1.75,0.99,2.74,76,1.32
 2026-11-02T20:00:00.000Z,Premier League,Newcastle United,Everton,1.35,1.18,2.53,72,1.39
 2026-11-02T16:00:00.000Z,Stoiximan Super League,Atromitos Athens,NPS Volos,1.12,1.19,2.31,67,1.49
@@ -75,50 +67,78 @@ Date,League,HomeTeam,AwayTeam,ExpHome,ExpAway,ExpTotal,Over15Pct,ImpliedOdds
 2026-11-03T20:00:00.000Z,Championship,West Bromwich Albion,Southampton,0.89,1.36,2.25,66,1.52
 2026-11-04T20:00:00.000Z,UEFA Champions League,PSV Eindhoven,Club Brugge KV,1.24,1.63,2.87,78,1.28
 2026-11-04T20:00:00.000Z,Championship,Bristol City,Wolverhampton,0.53,0.96,1.49,44,2.27
-2026-11-06T19:45:00.000Z,Serie A,Venezia,Udinese,1.48,1.58,3.06,81,1.23
 2026-11-06T20:00:00.000Z,Championship,Derby County,Bolton Wanderers,1.18,1.73,2.91,79,1.27
+2026-11-06T19:30:00.000Z,Serie B,Ascoli,Palermo,1.67,1.25,2.92,79,1.27
 2026-11-06T19:00:00.000Z,Ligue 2,USL Dunkerque,Guingamp,1.31,1.57,2.88,78,1.28
-2026-11-06T19:30:00.000Z,Serie B,Ascoli,Palermo,1.53,1.26,2.79,77,1.3
 2026-11-06T19:00:00.000Z,Ligue 2,Grenoble Foot 38,Stade de Reims,0.99,1.75,2.74,76,1.32
+2026-11-06T19:45:00.000Z,Serie A,Venezia,Udinese,1.35,1.21,2.56,72,1.39
 2026-11-06T19:00:00.000Z,Ligue 2,Nancy,Sochaux,1.46,0.9,2.36,68,1.47
 2026-11-06T20:00:00.000Z,Premier League,Everton,Coventry City,1.18,0.97,2.15,63,1.59
 2026-11-06T19:00:00.000Z,Ligue 2,US Boulogne Côte-d'Opale,Annecy FC,0.97,0.94,1.91,57,1.75
+2026-11-07T21:00:00.000Z,MLS,New York Red Bulls,Atlanta United,1.64,1.56,3.2,83,1.2
+2026-11-07T21:00:00.000Z,MLS,Chicago Fire,Columbus Crew,1.23,2.01,3.24,83,1.2
 2026-11-07T15:30:00.000Z,Eredivisie,Fortuna Sittard,SC Telstar,1.74,1.37,3.11,82,1.22
 2026-11-07T20:30:00.000Z,Liga Portugal Betclic,Sporting,Moreirense,2.07,1.06,3.13,82,1.22
 2026-11-07T15:30:00.000Z,Liga Portugal Betclic,CD Nacional,Académico Viseu FC,0.89,2.21,3.1,82,1.22
 2026-11-07T20:00:00.000Z,LaLiga,Valencia,Real Madrid,0.87,2.27,3.14,82,1.22
-2026-11-07T21:00:00.000Z,MLS,Chicago Fire,Columbus Crew,1.18,1.94,3.12,82,1.22
+2026-11-07T14:00:00.000Z,Serie B,Pisa,Südtirol,1.79,1.34,3.13,82,1.22
 2026-11-07T17:30:00.000Z,LaLiga,Osasuna,Athletic Club,0.65,2.42,3.07,81,1.23
-2026-11-07T14:00:00.000Z,Serie A,Torino,Lecce,1.98,1.1,3.08,81,1.23
-2026-11-07T16:15:00.000Z,Serie B,Mantova,Hellas Verona,1.46,1.62,3.08,81,1.23
+2026-11-07T21:00:00.000Z,MLS,DC United,New York City FC,1.26,1.82,3.08,81,1.23
 2026-11-07T17:30:00.000Z,Stoiximan Super League,Aris Thessaloniki,Panetolikos,1.97,1.06,3.03,81,1.23
 2026-11-07T17:30:00.000Z,Premier League,Nottingham Forest,Manchester City,0.89,2.11,3.0,80,1.25
 2026-11-07T15:00:00.000Z,Championship,Preston North End,Southampton,0.67,2.32,2.99,80,1.25
-2026-11-07T21:00:00.000Z,MLS,DC United,New York City FC,1.18,1.81,2.99,80,1.25
+2026-11-07T16:15:00.000Z,Serie B,Mantova,Hellas Verona,1.36,1.61,2.97,80,1.25
 2026-11-07T13:00:00.000Z,Ligue 2,Clermont Foot,Rodez AF,1.73,1.25,2.98,80,1.25
 2026-11-07T15:00:00.000Z,Championship,Birmingham City,Swansea City,1.96,0.96,2.92,79,1.27
 2026-11-07T14:30:00.000Z,Bundesliga,Borussia Dortmund,SV 07 Elversberg,1.98,0.91,2.89,78,1.28
-2026-11-07T14:00:00.000Z,Serie B,Pisa,Südtirol,1.71,1.17,2.88,78,1.28
-2026-11-07T14:00:00.000Z,Serie B,Cesena,Catanzaro,1.65,1.24,2.89,78,1.28
+2026-11-07T21:00:00.000Z,MLS,CF Montréal,Vancouver Whitecaps,0.9,1.95,2.85,78,1.28
+2026-11-07T21:00:00.000Z,MLS,FC Cincinnati,Nashville SC,0.71,2.16,2.87,78,1.28
+2026-11-07T14:00:00.000Z,Serie B,Cesena,Catanzaro,1.64,1.23,2.87,78,1.28
 2026-11-07T13:00:00.000Z,Ligue 2,Montpellier,Metz,1.67,1.14,2.81,77,1.3
-2026-11-07T14:00:00.000Z,Serie B,Juve Stabia,Arezzo,1.95,0.82,2.77,76,1.32
 2026-11-07T14:30:00.000Z,Bundesliga,SC Paderborn 07,Eintracht Frankfurt,1.43,1.24,2.67,75,1.33
 2026-11-07T17:00:00.000Z,Danish Superliga,Odense Boldklub,Viborg FF,1.1,1.58,2.68,75,1.33
+2026-11-07T17:00:00.000Z,Serie A,Parma,Bologna,0.9,1.77,2.67,75,1.33
 2026-11-07T19:00:00.000Z,Ligue 2,Pau FC,Nantes,1.55,1.08,2.63,74,1.35
-2026-11-07T21:00:00.000Z,MLS,New York Red Bulls,Atlanta United,1.36,1.18,2.54,72,1.39
 2026-11-07T15:00:00.000Z,Stoiximan Super League,NPS Volos,AE Kifisia,1.04,1.45,2.49,71,1.41
 2026-11-07T15:00:00.000Z,Championship,West Bromwich Albion,Millwall,1.39,1.05,2.44,70,1.43
 2026-11-07T12:30:00.000Z,Championship,Wrexham,Wolverhampton,0.96,1.43,2.39,69,1.45
-2026-11-07T21:00:00.000Z,MLS,CF Montréal,Vancouver Whitecaps,0.84,1.54,2.38,69,1.45
 2026-11-07T15:00:00.000Z,Premier League,Fulham,Newcastle United,1.18,1.15,2.33,68,1.47
-2026-11-07T17:00:00.000Z,Serie A,Parma,Bologna,0.84,1.5,2.34,68,1.47
 2026-11-07T15:00:00.000Z,Championship,Charlton Athletic,Sheffield United,0.79,1.51,2.3,67,1.49
 2026-11-07T12:30:00.000Z,Championship,Bristol City,Norwich City,0.92,1.39,2.31,67,1.49
 2026-11-07T18:00:00.000Z,Liga Portugal Betclic,FC Alverca,Casa Pia,1.44,0.87,2.31,67,1.49
 2026-11-07T15:15:00.000Z,LaLiga,Espanyol,Deportivo La Coruña,1.11,1.2,2.31,67,1.49
-2026-11-07T18:30:00.000Z,Serie B,Benevento,Avellino,1.44,0.88,2.32,67,1.49
-2026-11-07T14:00:00.000Z,Serie B,Padova,Empoli,1.32,0.97,2.29,67,1.49
+2026-11-07T18:30:00.000Z,Serie B,Benevento,Avellino,1.43,0.88,2.31,67,1.49
+2026-11-07T14:00:00.000Z,Serie B,Padova,Empoli,1.31,0.98,2.29,67,1.49
+2026-11-07T14:00:00.000Z,Serie B,Juve Stabia,Arezzo,1.55,0.74,2.29,67,1.49
 2026-11-07T19:30:00.000Z,Swiss Super League,Grasshopper Club Zürich,FC Lausanne-Sport,1.36,0.9,2.26,66,1.52
 2026-11-07T12:30:00.000Z,Championship,Portsmouth,Stoke City,1.05,1.12,2.17,64,1.56
 2026-11-07T15:00:00.000Z,Premier League,Arsenal,Hull City,1.24,0.73,1.97,59,1.69
 2026-11-07T12:30:00.000Z,Premier League,Leeds United,Tottenham Hotspur,0.98,0.89,1.87,56,1.79
+2026-11-08T14:00:00.000Z,Premier League,Sunderland,Chelsea,1.13,2.11,3.24,83,1.2
+2026-11-08T11:00:00.000Z,Danish Superliga,FC København,Brøndby IF,2.36,0.87,3.23,83,1.2
+2026-11-08T15:00:00.000Z,Stoiximan Super League,Asteras Aktor,PS Kalamata,1.34,1.78,3.12,82,1.22
+2026-11-08T14:00:00.000Z,Premier League,Crystal Palace,Liverpool,0.97,2.02,2.99,80,1.25
+2026-11-08T16:00:00.000Z,Eliteserien,Fredrikstad FK,SK Brann,1.75,1.26,3.01,80,1.25
+2026-11-08T19:45:00.000Z,Serie A,Fiorentina,Juventus,1.46,1.51,2.97,80,1.25
+2026-11-08T17:00:00.000Z,Stoiximan Super League,OFI Crete,Atromitos Athens,1.78,1.19,2.97,80,1.25
+2026-11-08T15:00:00.000Z,Danish Superliga,Randers FC,FC Nordsjælland,1.47,1.47,2.94,79,1.27
+2026-11-08T14:00:00.000Z,Serie A,Genoa,Milan,1.18,1.74,2.92,79,1.27
+2026-11-08T20:30:00.000Z,Liga Portugal Betclic,Rio Ave,Sporting Braga,1.16,1.63,2.79,77,1.3
+2026-11-08T19:00:00.000Z,LaLiga,Sevilla,Deportivo Alavés,1.4,1.39,2.79,77,1.3
+2026-11-08T13:00:00.000Z,LaLiga,Elche,Real Betis,1.39,1.37,2.76,76,1.32
+2026-11-08T16:30:00.000Z,Premier League,Manchester United,Aston Villa,1.24,1.45,2.69,75,1.33
+2026-11-08T00:00:00.000Z,MLS,Seattle Sounders FC,Los Angeles FC,1.56,1.09,2.65,74,1.35
+2026-11-08T00:00:00.000Z,MLS,FC Dallas,Colorado Rapids,1.36,1.17,2.53,72,1.39
+2026-11-08T14:00:00.000Z,Serie B,Virtus Entella,Modena,1.25,1.31,2.56,72,1.39
+2026-11-08T15:30:00.000Z,Liga Portugal Betclic,Estoril Praia,Marítimo,1.31,1.19,2.5,71,1.41
+2026-11-08T18:30:00.000Z,Serie B,L.R. Vicenza,Cremonese,1.07,1.43,2.5,71,1.41
+2026-11-08T17:30:00.000Z,LaLiga,Celta Vigo,Levante UD,1.66,0.77,2.43,70,1.43
+2026-11-08T16:15:00.000Z,Serie B,Carrarese,Sampdoria,1.55,0.83,2.38,69,1.45
+2026-11-08T19:00:00.000Z,Stoiximan Super League,Olympiacos FC,PAOK,1.67,0.73,2.4,69,1.45
+2026-11-08T15:30:00.000Z,Stoiximan Super League,Iraklis 1908,Panathinaikos,0.78,1.63,2.41,69,1.45
+2026-11-08T18:30:00.000Z,Bundesliga,TSG Hoffenheim,FC Schalke 04,1.34,1.01,2.35,68,1.47
+2026-11-08T17:30:00.000Z,LaLiga,Villarreal,Getafe,1.6,0.76,2.36,68,1.47
+2026-11-08T18:00:00.000Z,Liga Portugal Betclic,Vitória SC,FC Porto,0.72,1.56,2.28,66,1.52
+2026-11-08T11:00:00.000Z,Liga Portugal Betclic,Famalicão,FC Arouca,1.3,0.98,2.28,66,1.52
+2026-11-08T15:00:00.000Z,Stoiximan Super League,AEK Athens,APO Levadiakos,2.03,0.22,2.25,66,1.52
+2026-11-08T15:30:00.000Z,Liga Portugal Betclic,Santa Clara,Gil Vicente,1.14,0.54,1.68,50,2.0
