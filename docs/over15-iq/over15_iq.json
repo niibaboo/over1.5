@@ -1,79 +1,5 @@
 [
   {
-    "match_id": "mt_467221257",
-    "league": "UEFA Champions League",
-    "date": "2026-11-04T20:00:00.000Z",
-    "date_key": "2026-11-04",
-    "home_team": "PSV Eindhoven",
-    "away_team": "Club Brugge KV",
-    "home_form": {
-      "n_games": 3,
-      "avg_scored": 0.67,
-      "avg_conceded": 0.67,
-      "goals_list": [
-        1,
-        0,
-        1
-      ]
-    },
-    "away_form": {
-      "n_games": 3,
-      "avg_scored": 3.0,
-      "avg_conceded": 2.0,
-      "goals_list": [
-        2,
-        4,
-        3
-      ]
-    },
-    "odds": 1.28,
-    "exp_home": 1.24,
-    "exp_away": 1.63,
-    "exp_total": 2.87,
-    "over15": 78
-  },
-  {
-    "match_id": "mt_988328016",
-    "league": "Championship",
-    "date": "2026-11-04T20:00:00.000Z",
-    "date_key": "2026-11-04",
-    "home_team": "Bristol City",
-    "away_team": "Wolverhampton",
-    "home_form": {
-      "n_games": 7,
-      "avg_scored": 0.71,
-      "avg_conceded": 0.86,
-      "goals_list": [
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        3
-      ]
-    },
-    "away_form": {
-      "n_games": 7,
-      "avg_scored": 1.29,
-      "avg_conceded": 0.86,
-      "goals_list": [
-        1,
-        0,
-        1,
-        2,
-        1,
-        1,
-        3
-      ]
-    },
-    "odds": 2.08,
-    "exp_home": 0.67,
-    "exp_away": 0.96,
-    "exp_total": 1.63,
-    "over15": 48
-  },
-  {
     "match_id": "mt_733716900",
     "league": "LaLiga",
     "date": "2026-11-06T20:00:00.000Z",
@@ -525,47 +451,6 @@
     "over15": 82
   },
   {
-    "match_id": "mt_733653197",
-    "league": "Championship",
-    "date": "2026-11-07T15:00:00.000Z",
-    "date_key": "2026-11-07",
-    "home_team": "Cardiff City",
-    "away_team": "Burnley",
-    "home_form": {
-      "n_games": 7,
-      "avg_scored": 1.71,
-      "avg_conceded": 1.43,
-      "goals_list": [
-        0,
-        3,
-        1,
-        5,
-        2,
-        1,
-        0
-      ]
-    },
-    "away_form": {
-      "n_games": 7,
-      "avg_scored": 1.43,
-      "avg_conceded": 1.43,
-      "goals_list": [
-        1,
-        4,
-        2,
-        1,
-        1,
-        0,
-        1
-      ]
-    },
-    "odds": 1.23,
-    "exp_home": 1.62,
-    "exp_away": 1.42,
-    "exp_total": 3.04,
-    "over15": 81
-  },
-  {
     "match_id": "mt_644620269",
     "league": "Bundesliga",
     "date": "2026-11-07T14:30:00.000Z",
@@ -766,90 +651,8 @@
     },
     "odds": 1.25,
     "exp_home": 0.74,
-    "exp_away": 2.26,
-    "exp_total": 3.0,
-    "over15": 80
-  },
-  {
-    "match_id": "mt_155865464",
-    "league": "Championship",
-    "date": "2026-11-07T15:00:00.000Z",
-    "date_key": "2026-11-07",
-    "home_team": "Charlton Athletic",
-    "away_team": "Sheffield United",
-    "home_form": {
-      "n_games": 7,
-      "avg_scored": 0.71,
-      "avg_conceded": 2.14,
-      "goals_list": [
-        1,
-        1,
-        2,
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    "away_form": {
-      "n_games": 7,
-      "avg_scored": 1.71,
-      "avg_conceded": 1.14,
-      "goals_list": [
-        1,
-        3,
-        2,
-        1,
-        1,
-        1,
-        3
-      ]
-    },
-    "odds": 1.25,
-    "exp_home": 0.8,
-    "exp_away": 2.18,
-    "exp_total": 2.98,
-    "over15": 80
-  },
-  {
-    "match_id": "mt_644094839",
-    "league": "Championship",
-    "date": "2026-11-07T15:00:00.000Z",
-    "date_key": "2026-11-07",
-    "home_team": "Birmingham City",
-    "away_team": "Swansea City",
-    "home_form": {
-      "n_games": 7,
-      "avg_scored": 2.29,
-      "avg_conceded": 0.57,
-      "goals_list": [
-        2,
-        1,
-        4,
-        3,
-        0,
-        3,
-        3
-      ]
-    },
-    "away_form": {
-      "n_games": 7,
-      "avg_scored": 1.43,
-      "avg_conceded": 1.57,
-      "goals_list": [
-        2,
-        2,
-        1,
-        0,
-        0,
-        4,
-        1
-      ]
-    },
-    "odds": 1.25,
-    "exp_home": 2.15,
-    "exp_away": 0.83,
-    "exp_total": 2.98,
+    "exp_away": 2.25,
+    "exp_total": 2.99,
     "over15": 80
   },
   {
@@ -892,6 +695,88 @@
     "exp_away": 1.46,
     "exp_total": 3.0,
     "over15": 80
+  },
+  {
+    "match_id": "mt_155865464",
+    "league": "Championship",
+    "date": "2026-11-07T15:00:00.000Z",
+    "date_key": "2026-11-07",
+    "home_team": "Charlton Athletic",
+    "away_team": "Sheffield United",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 0.71,
+      "avg_conceded": 2.14,
+      "goals_list": [
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.71,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        1,
+        3,
+        2,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    "odds": 1.27,
+    "exp_home": 0.79,
+    "exp_away": 2.17,
+    "exp_total": 2.96,
+    "over15": 79
+  },
+  {
+    "match_id": "mt_644094839",
+    "league": "Championship",
+    "date": "2026-11-07T15:00:00.000Z",
+    "date_key": "2026-11-07",
+    "home_team": "Birmingham City",
+    "away_team": "Swansea City",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 2.29,
+      "avg_conceded": 0.57,
+      "goals_list": [
+        2,
+        1,
+        4,
+        3,
+        0,
+        3,
+        3
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.43,
+      "avg_conceded": 1.57,
+      "goals_list": [
+        2,
+        2,
+        1,
+        0,
+        0,
+        4,
+        1
+      ]
+    },
+    "odds": 1.27,
+    "exp_home": 2.14,
+    "exp_away": 0.82,
+    "exp_total": 2.96,
+    "over15": 79
   },
   {
     "match_id": "mt_465746111",
@@ -1175,9 +1060,9 @@
       ]
     },
     "odds": 1.32,
-    "exp_home": 1.52,
+    "exp_home": 1.51,
     "exp_away": 1.22,
-    "exp_total": 2.74,
+    "exp_total": 2.73,
     "over15": 76
   },
   {
@@ -1427,47 +1312,6 @@
     "over15": 75
   },
   {
-    "match_id": "mt_377417514",
-    "league": "Championship",
-    "date": "2026-11-07T12:30:00.000Z",
-    "date_key": "2026-11-07",
-    "home_team": "Wrexham",
-    "away_team": "Wolverhampton",
-    "home_form": {
-      "n_games": 7,
-      "avg_scored": 1.14,
-      "avg_conceded": 2.0,
-      "goals_list": [
-        0,
-        2,
-        1,
-        1,
-        4,
-        0,
-        0
-      ]
-    },
-    "away_form": {
-      "n_games": 7,
-      "avg_scored": 1.29,
-      "avg_conceded": 0.86,
-      "goals_list": [
-        1,
-        0,
-        1,
-        2,
-        1,
-        1,
-        3
-      ]
-    },
-    "odds": 1.37,
-    "exp_home": 0.88,
-    "exp_away": 1.69,
-    "exp_total": 2.57,
-    "over15": 73
-  },
-  {
     "match_id": "mt_377120602",
     "league": "Danish Superliga",
     "date": "2026-11-07T17:00:00.000Z",
@@ -1507,6 +1351,47 @@
     "exp_away": 1.39,
     "exp_total": 2.59,
     "over15": 73
+  },
+  {
+    "match_id": "mt_899709257",
+    "league": "Championship",
+    "date": "2026-11-07T12:30:00.000Z",
+    "date_key": "2026-11-07",
+    "home_team": "Bristol City",
+    "away_team": "Norwich City",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 2.0,
+      "avg_conceded": 1.57,
+      "goals_list": [
+        3,
+        1,
+        0,
+        0,
+        3,
+        3,
+        4
+      ]
+    },
+    "odds": 1.39,
+    "exp_home": 1.09,
+    "exp_away": 1.43,
+    "exp_total": 2.52,
+    "over15": 72
   },
   {
     "match_id": "mt_644620485",
@@ -1714,45 +1599,45 @@
     "over15": 68
   },
   {
-    "match_id": "mt_899709257",
+    "match_id": "mt_377417514",
     "league": "Championship",
     "date": "2026-11-07T12:30:00.000Z",
     "date_key": "2026-11-07",
-    "home_team": "Bristol City",
-    "away_team": "Norwich City",
+    "home_team": "Wrexham",
+    "away_team": "Wolverhampton",
     "home_form": {
       "n_games": 7,
-      "avg_scored": 0.71,
-      "avg_conceded": 0.86,
+      "avg_scored": 1.43,
+      "avg_conceded": 1.14,
       "goals_list": [
-        0,
+        2,
         1,
         1,
+        4,
         0,
         0,
-        0,
-        3
+        2
       ]
     },
     "away_form": {
       "n_games": 7,
-      "avg_scored": 2.0,
-      "avg_conceded": 1.57,
+      "avg_scored": 1.43,
+      "avg_conceded": 1.0,
       "goals_list": [
-        3,
+        0,
         1,
-        0,
-        0,
+        2,
+        1,
+        1,
         3,
-        3,
-        4
+        2
       ]
     },
-    "odds": 1.49,
-    "exp_home": 0.99,
-    "exp_away": 1.31,
-    "exp_total": 2.3,
-    "over15": 67
+    "odds": 1.47,
+    "exp_home": 1.12,
+    "exp_away": 1.22,
+    "exp_total": 2.34,
+    "over15": 68
   },
   {
     "match_id": "mt_200199370",
@@ -1871,11 +1756,11 @@
         2
       ]
     },
-    "odds": 1.59,
-    "exp_home": 1.03,
-    "exp_away": 1.1,
-    "exp_total": 2.13,
-    "over15": 63
+    "odds": 1.61,
+    "exp_home": 1.02,
+    "exp_away": 1.09,
+    "exp_total": 2.11,
+    "over15": 62
   },
   {
     "match_id": "mt_377317722",
