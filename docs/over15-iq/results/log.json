@@ -5773,9 +5773,9 @@
     "prob": 81,
     "exp_total": 3.06,
     "odds": 1.23,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_200170379",
@@ -5787,9 +5787,9 @@
     "prob": 79,
     "exp_total": 2.91,
     "odds": 1.27,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_466277676",
@@ -5801,9 +5801,9 @@
     "prob": 78,
     "exp_total": 2.88,
     "odds": 1.28,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_643222458",
@@ -5815,9 +5815,9 @@
     "prob": 77,
     "exp_total": 2.79,
     "odds": 1.3,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_022544241",
@@ -5829,9 +5829,9 @@
     "prob": 76,
     "exp_total": 2.74,
     "odds": 1.32,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_377488781",
@@ -5843,9 +5843,9 @@
     "prob": 68,
     "exp_total": 2.36,
     "odds": 1.47,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_022588739",
@@ -5857,9 +5857,9 @@
     "prob": 63,
     "exp_total": 2.15,
     "odds": 1.59,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_377488800",
@@ -5871,9 +5871,9 @@
     "prob": 57,
     "exp_total": 1.91,
     "odds": 1.75,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_377263846",
@@ -5885,9 +5885,9 @@
     "prob": 82,
     "exp_total": 3.11,
     "odds": 1.22,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_022032254",
@@ -5899,9 +5899,9 @@
     "prob": 82,
     "exp_total": 3.13,
     "odds": 1.22,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_200270019",
@@ -5913,9 +5913,9 @@
     "prob": 82,
     "exp_total": 3.1,
     "odds": 1.22,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_466492710",
@@ -5927,9 +5927,9 @@
     "prob": 82,
     "exp_total": 3.14,
     "odds": 1.22,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_732973001",
@@ -5941,9 +5941,9 @@
     "prob": 82,
     "exp_total": 3.12,
     "odds": 1.22,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 7
   },
   {
     "id": "over15:mt_644680354",
@@ -5955,9 +5955,9 @@
     "prob": 81,
     "exp_total": 3.07,
     "odds": 1.23,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_644908638",
@@ -5969,9 +5969,9 @@
     "prob": 81,
     "exp_total": 3.08,
     "odds": 1.23,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_512888139",
@@ -5983,9 +5983,9 @@
     "prob": 81,
     "exp_total": 3.08,
     "odds": 1.23,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_206902228",
@@ -5997,9 +5997,9 @@
     "prob": 81,
     "exp_total": 3.03,
     "odds": 1.23,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_733622104",
@@ -6011,9 +6011,9 @@
     "prob": 80,
     "exp_total": 3.0,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_511941641",
@@ -6025,9 +6025,9 @@
     "prob": 80,
     "exp_total": 2.99,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_028402993",
@@ -6039,9 +6039,9 @@
     "prob": 80,
     "exp_total": 2.99,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_644033318",
@@ -6053,9 +6053,9 @@
     "prob": 80,
     "exp_total": 2.98,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_644094839",
@@ -6067,9 +6067,9 @@
     "prob": 79,
     "exp_total": 2.92,
     "odds": 1.27,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_644620269",
@@ -6081,9 +6081,9 @@
     "prob": 78,
     "exp_total": 2.89,
     "odds": 1.28,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_467000629",
@@ -6095,9 +6095,9 @@
     "prob": 78,
     "exp_total": 2.88,
     "odds": 1.28,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_739444303",
@@ -6109,9 +6109,9 @@
     "prob": 78,
     "exp_total": 2.89,
     "odds": 1.28,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_377488712",
@@ -6123,9 +6123,9 @@
     "prob": 77,
     "exp_total": 2.81,
     "odds": 1.3,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_206555087",
@@ -6137,9 +6137,9 @@
     "prob": 76,
     "exp_total": 2.77,
     "odds": 1.32,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_644620485",
@@ -6151,9 +6151,9 @@
     "prob": 75,
     "exp_total": 2.67,
     "odds": 1.33,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_377120602",
@@ -6165,9 +6165,9 @@
     "prob": 75,
     "exp_total": 2.68,
     "odds": 1.33,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_466277687",
@@ -6179,9 +6179,9 @@
     "prob": 74,
     "exp_total": 2.63,
     "odds": 1.35,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_732973062",
@@ -6193,9 +6193,9 @@
     "prob": 72,
     "exp_total": 2.54,
     "odds": 1.39,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_024847777",
@@ -6207,9 +6207,9 @@
     "prob": 71,
     "exp_total": 2.49,
     "odds": 1.41,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_644094895",
@@ -6221,9 +6221,9 @@
     "prob": 70,
     "exp_total": 2.44,
     "odds": 1.43,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_377417514",
@@ -6235,9 +6235,9 @@
     "prob": 69,
     "exp_total": 2.39,
     "odds": 1.45,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_465746111",
@@ -6249,9 +6249,9 @@
     "prob": 69,
     "exp_total": 2.38,
     "odds": 1.45,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_466255982",
@@ -6263,9 +6263,9 @@
     "prob": 68,
     "exp_total": 2.33,
     "odds": 1.47,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_022357025",
@@ -6277,9 +6277,9 @@
     "prob": 68,
     "exp_total": 2.34,
     "odds": 1.47,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_155865464",
@@ -6291,9 +6291,9 @@
     "prob": 67,
     "exp_total": 2.3,
     "odds": 1.49,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_899709257",
@@ -6305,9 +6305,9 @@
     "prob": 67,
     "exp_total": 2.31,
     "odds": 1.49,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 5
   },
   {
     "id": "over15:mt_377317722",
@@ -6319,9 +6319,9 @@
     "prob": 67,
     "exp_total": 2.31,
     "odds": 1.49,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_899827560",
@@ -6333,9 +6333,9 @@
     "prob": 67,
     "exp_total": 2.31,
     "odds": 1.49,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_378666720",
@@ -6347,9 +6347,9 @@
     "prob": 67,
     "exp_total": 2.32,
     "odds": 1.49,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_024111290",
@@ -6361,9 +6361,9 @@
     "prob": 67,
     "exp_total": 2.29,
     "odds": 1.49,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_982061326",
@@ -6375,9 +6375,9 @@
     "prob": 66,
     "exp_total": 2.26,
     "odds": 1.52,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_988328027",
@@ -6389,9 +6389,9 @@
     "prob": 64,
     "exp_total": 2.17,
     "odds": 1.56,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 3
   },
   {
     "id": "over15:mt_200199370",
@@ -6403,9 +6403,9 @@
     "prob": 59,
     "exp_total": 1.97,
     "odds": 1.69,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_377400525",
@@ -6417,9 +6417,9 @@
     "prob": 56,
     "exp_total": 1.87,
     "odds": 1.79,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_733561742",
@@ -6445,9 +6445,9 @@
     "prob": 78,
     "exp_total": 2.87,
     "odds": 1.28,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_155833475",
@@ -6459,9 +6459,9 @@
     "prob": 83,
     "exp_total": 3.24,
     "odds": 1.2,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_022398182",
@@ -6473,9 +6473,9 @@
     "prob": 83,
     "exp_total": 3.23,
     "odds": 1.2,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 1
   },
   {
     "id": "over15:mt_150351116",
@@ -6487,9 +6487,9 @@
     "prob": 82,
     "exp_total": 3.12,
     "odds": 1.22,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 2
   },
   {
     "id": "over15:mt_511977644",
@@ -6501,9 +6501,9 @@
     "prob": 80,
     "exp_total": 2.99,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_641549566",
@@ -6515,9 +6515,9 @@
     "prob": 80,
     "exp_total": 3.01,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_644908626",
@@ -6529,9 +6529,9 @@
     "prob": 80,
     "exp_total": 2.97,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "hit",
+    "actual_total": 4
   },
   {
     "id": "over15:mt_150304447",
@@ -6543,9 +6543,9 @@
     "prob": 80,
     "exp_total": 2.97,
     "odds": 1.25,
-    "status": "pending",
-    "result": null,
-    "actual_total": null
+    "status": "settled",
+    "result": "miss",
+    "actual_total": 0
   },
   {
     "id": "over15:mt_733502427",
