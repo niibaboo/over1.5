@@ -1,1 +1,1519 @@
-[]
+[
+  {
+    "match_id": "mt_377364754",
+    "league": "Bundesliga",
+    "date": "2026-11-20T19:30:00.000Z",
+    "date_key": "2026-11-20",
+    "home_team": "FC Bayern M\u00fcnchen",
+    "away_team": "1. FC K\u00f6ln",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 3.43,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        2,
+        7,
+        2,
+        6,
+        3,
+        2,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "odds": 1.23,
+    "exp_home": 2.21,
+    "exp_away": 0.85,
+    "exp_total": 3.06,
+    "over15": 81
+  },
+  {
+    "match_id": "mt_644033499",
+    "league": "Ligue 2",
+    "date": "2026-11-20T19:00:00.000Z",
+    "date_key": "2026-11-20",
+    "home_team": "Red Star FC",
+    "away_team": "Pau FC",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 1.57,
+      "goals_list": [
+        1,
+        3,
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.71,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        0,
+        2,
+        3,
+        2,
+        2,
+        3,
+        0
+      ]
+    },
+    "odds": 1.27,
+    "exp_home": 1.17,
+    "exp_away": 1.79,
+    "exp_total": 2.96,
+    "over15": 79
+  },
+  {
+    "match_id": "mt_899755956",
+    "league": "Ligue 2",
+    "date": "2026-11-20T19:00:00.000Z",
+    "date_key": "2026-11-20",
+    "home_team": "Metz",
+    "away_team": "US Boulogne C\u00f4te-d'Opale",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.71,
+      "avg_conceded": 2.14,
+      "goals_list": [
+        0,
+        2,
+        2,
+        3,
+        1,
+        1,
+        3
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    "odds": 1.3,
+    "exp_home": 1.08,
+    "exp_away": 1.7,
+    "exp_total": 2.78,
+    "over15": 77
+  },
+  {
+    "match_id": "mt_511922127",
+    "league": "Ligue 2",
+    "date": "2026-11-20T19:00:00.000Z",
+    "date_key": "2026-11-20",
+    "home_team": "Annecy FC",
+    "away_team": "Clermont Foot",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 1.86,
+      "goals_list": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        0,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        1
+      ]
+    },
+    "odds": 1.33,
+    "exp_home": 1.15,
+    "exp_away": 1.52,
+    "exp_total": 2.67,
+    "over15": 75
+  },
+  {
+    "match_id": "mt_155800501",
+    "league": "Ligue 2",
+    "date": "2026-11-20T19:00:00.000Z",
+    "date_key": "2026-11-20",
+    "home_team": "Guingamp",
+    "away_team": "Rodez AF",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        2,
+        1,
+        0,
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.71,
+      "goals_list": [
+        0,
+        3,
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    "odds": 1.37,
+    "exp_home": 1.55,
+    "exp_away": 1.05,
+    "exp_total": 2.6,
+    "over15": 73
+  },
+  {
+    "match_id": "mt_467000645",
+    "league": "Serie B",
+    "date": "2026-11-20T19:30:00.000Z",
+    "date_key": "2026-11-20",
+    "home_team": "Hellas Verona",
+    "away_team": "Cesena",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        3,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.29,
+      "goals_list": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    "odds": 1.49,
+    "exp_home": 1.47,
+    "exp_away": 0.83,
+    "exp_total": 2.3,
+    "over15": 67
+  },
+  {
+    "match_id": "mt_988903130",
+    "league": "LaLiga",
+    "date": "2026-11-20T20:00:00.000Z",
+    "date_key": "2026-11-20",
+    "home_team": "Athletic Club",
+    "away_team": "Espanyol",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 0.86,
+      "goals_list": [
+        1,
+        0,
+        0,
+        1,
+        4,
+        2,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.71,
+      "avg_conceded": 1.29,
+      "goals_list": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "odds": 1.75,
+    "exp_home": 1.24,
+    "exp_away": 0.67,
+    "exp_total": 1.91,
+    "over15": 57
+  },
+  {
+    "match_id": "mt_511388676",
+    "league": "Eredivisie",
+    "date": "2026-11-21T20:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "SC Telstar",
+    "away_team": "PEC Zwolle",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.86,
+      "avg_conceded": 2.0,
+      "goals_list": [
+        0,
+        0,
+        2,
+        3,
+        2,
+        4,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 2.0,
+      "goals_list": [
+        0,
+        0,
+        0,
+        4,
+        1,
+        1,
+        1
+      ]
+    },
+    "odds": 1.2,
+    "exp_home": 1.92,
+    "exp_away": 1.3,
+    "exp_total": 3.22,
+    "over15": 83
+  },
+  {
+    "match_id": "mt_899837928",
+    "league": "Bundesliga",
+    "date": "2026-11-21T14:30:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Bayer 04 Leverkusen",
+    "away_team": "SC Paderborn 07",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 2.0,
+      "avg_conceded": 2.0,
+      "goals_list": [
+        2,
+        2,
+        4,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        0,
+        3,
+        0,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    "odds": 1.22,
+    "exp_home": 1.68,
+    "exp_away": 1.46,
+    "exp_total": 3.14,
+    "over15": 82
+  },
+  {
+    "match_id": "mt_511922148",
+    "league": "Ligue 2",
+    "date": "2026-11-21T13:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Stade Lavallois",
+    "away_team": "Montpellier",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 1.86,
+      "goals_list": [
+        2,
+        1,
+        2,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 2.0,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        1,
+        1,
+        2,
+        3,
+        2,
+        3,
+        2
+      ]
+    },
+    "odds": 1.22,
+    "exp_home": 0.87,
+    "exp_away": 2.29,
+    "exp_total": 3.16,
+    "over15": 82
+  },
+  {
+    "match_id": "mt_155865473",
+    "league": "Championship",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Lincoln City",
+    "away_team": "Wrexham",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 2.57,
+      "goals_list": [
+        0,
+        0,
+        2,
+        4,
+        1,
+        0,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        1,
+        1,
+        4,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    "odds": 1.23,
+    "exp_home": 1.04,
+    "exp_away": 2.05,
+    "exp_total": 3.09,
+    "over15": 81
+  },
+  {
+    "match_id": "mt_377417523",
+    "league": "Championship",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Swansea City",
+    "away_team": "West Bromwich Albion",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 1.71,
+      "goals_list": [
+        2,
+        1,
+        0,
+        0,
+        4,
+        1,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.86,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        0,
+        2,
+        3,
+        1,
+        3,
+        1,
+        3
+      ]
+    },
+    "odds": 1.25,
+    "exp_home": 1.04,
+    "exp_away": 1.94,
+    "exp_total": 2.98,
+    "over15": 80
+  },
+  {
+    "match_id": "mt_511589172",
+    "league": "Bundesliga",
+    "date": "2026-11-21T14:30:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Borussia M'gladbach",
+    "away_team": "Borussia Dortmund",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 2.57,
+      "goals_list": [
+        0,
+        3,
+        1,
+        1,
+        3,
+        0,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        3,
+        1,
+        2,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    "odds": 1.25,
+    "exp_home": 0.84,
+    "exp_away": 2.16,
+    "exp_total": 3.0,
+    "over15": 80
+  },
+  {
+    "match_id": "mt_899709208",
+    "league": "Championship",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Bolton Wanderers",
+    "away_team": "Portsmouth",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 2.0,
+      "goals_list": [
+        1,
+        3,
+        0,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        3,
+        1,
+        1,
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    "odds": 1.27,
+    "exp_home": 1.04,
+    "exp_away": 1.92,
+    "exp_total": 2.96,
+    "over15": 79
+  },
+  {
+    "match_id": "mt_644908691",
+    "league": "Serie A",
+    "date": "2026-11-21T19:45:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Napoli",
+    "away_team": "Torino",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.71,
+      "avg_conceded": 1.29,
+      "goals_list": [
+        1,
+        3,
+        0,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        1,
+        2,
+        3,
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    "odds": 1.27,
+    "exp_home": 1.57,
+    "exp_away": 1.38,
+    "exp_total": 2.95,
+    "over15": 79
+  },
+  {
+    "match_id": "mt_511976329",
+    "league": "Premier League",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Ipswich Town",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.43,
+      "avg_conceded": 0.86,
+      "goals_list": [
+        0,
+        2,
+        1,
+        3,
+        2,
+        2,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 1.71,
+      "goals_list": [
+        3,
+        0,
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    "odds": 1.3,
+    "exp_home": 1.66,
+    "exp_away": 1.12,
+    "exp_total": 2.78,
+    "over15": 77
+  },
+  {
+    "match_id": "mt_022532793",
+    "league": "Championship",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Sheffield United",
+    "away_team": "Watford",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.71,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.86,
+      "goals_list": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    "odds": 1.3,
+    "exp_home": 1.94,
+    "exp_away": 0.88,
+    "exp_total": 2.82,
+    "over15": 77
+  },
+  {
+    "match_id": "mt_466259164",
+    "league": "Premier League",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Bournemouth",
+    "away_team": "Nottingham Forest",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.71,
+      "avg_conceded": 1.29,
+      "goals_list": [
+        2,
+        0,
+        1,
+        2,
+        3,
+        2,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        0,
+        3
+      ]
+    },
+    "odds": 1.32,
+    "exp_home": 1.66,
+    "exp_away": 1.07,
+    "exp_total": 2.73,
+    "over15": 76
+  },
+  {
+    "match_id": "mt_200170385",
+    "league": "Championship",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Middlesbrough",
+    "away_team": "Bristol City",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 2.0,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        1,
+        3,
+        2,
+        5,
+        3,
+        0,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.71,
+      "avg_conceded": 1.71,
+      "goals_list": [
+        1,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "odds": 1.32,
+    "exp_home": 2.04,
+    "exp_away": 0.73,
+    "exp_total": 2.77,
+    "over15": 76
+  },
+  {
+    "match_id": "mt_466286911",
+    "league": "Championship",
+    "date": "2026-11-21T12:30:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Southampton",
+    "away_team": "Derby County",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.43,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        1,
+        1,
+        0,
+        3,
+        4,
+        1,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 2.29,
+      "goals_list": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        3
+      ]
+    },
+    "odds": 1.32,
+    "exp_home": 2.0,
+    "exp_away": 0.73,
+    "exp_total": 2.73,
+    "over15": 76
+  },
+  {
+    "match_id": "mt_649815090",
+    "league": "Swiss Super League",
+    "date": "2026-11-21T19:30:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "FC Sion",
+    "away_team": "Servette FC",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 2.14,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        3,
+        5,
+        1,
+        0,
+        1,
+        1,
+        4
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.86,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        1,
+        4,
+        2,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    "odds": 1.32,
+    "exp_home": 1.49,
+    "exp_away": 1.25,
+    "exp_total": 2.74,
+    "over15": 76
+  },
+  {
+    "match_id": "mt_733653162",
+    "league": "Championship",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Wolverhampton",
+    "away_team": "Charlton Athletic",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        1,
+        2,
+        1,
+        1,
+        3,
+        2,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.86,
+      "goals_list": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    "odds": 1.35,
+    "exp_home": 1.82,
+    "exp_away": 0.81,
+    "exp_total": 2.63,
+    "over15": 74
+  },
+  {
+    "match_id": "mt_899755907",
+    "league": "Ligue 2",
+    "date": "2026-11-21T19:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Stade de Reims",
+    "away_team": "Saint-\u00c9tienne",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.71,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        2,
+        1,
+        0,
+        4,
+        1,
+        2,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    "odds": 1.41,
+    "exp_home": 1.32,
+    "exp_away": 1.17,
+    "exp_total": 2.49,
+    "over15": 71
+  },
+  {
+    "match_id": "mt_733716966",
+    "league": "LaLiga",
+    "date": "2026-11-21T15:15:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Rayo Vallecano",
+    "away_team": "Valencia",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 1.57,
+      "goals_list": [
+        1,
+        2,
+        1,
+        1,
+        0,
+        3,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "odds": 1.43,
+    "exp_home": 1.22,
+    "exp_away": 1.2,
+    "exp_total": 2.42,
+    "over15": 70
+  },
+  {
+    "match_id": "mt_512888195",
+    "league": "Serie B",
+    "date": "2026-11-21T14:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Sampdoria",
+    "away_team": "Benevento",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.43,
+      "avg_conceded": 0.86,
+      "goals_list": [
+        1,
+        2,
+        2,
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    "odds": 1.45,
+    "exp_home": 0.9,
+    "exp_away": 1.48,
+    "exp_total": 2.38,
+    "over15": 69
+  },
+  {
+    "match_id": "mt_200193867",
+    "league": "Premier League",
+    "date": "2026-11-21T12:30:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Manchester City",
+    "away_team": "Fulham",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 2.0,
+      "avg_conceded": 1.57,
+      "goals_list": [
+        1,
+        5,
+        3,
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "odds": 1.47,
+    "exp_home": 1.21,
+    "exp_away": 1.12,
+    "exp_total": 2.33,
+    "over15": 68
+  },
+  {
+    "match_id": "mt_733561793",
+    "league": "Serie A",
+    "date": "2026-11-21T14:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Como",
+    "away_team": "Cagliari",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 0.86,
+      "goals_list": [
+        0,
+        0,
+        3,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.86,
+      "goals_list": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    "odds": 1.49,
+    "exp_home": 1.56,
+    "exp_away": 0.74,
+    "exp_total": 2.3,
+    "over15": 67
+  },
+  {
+    "match_id": "mt_981777833",
+    "league": "Serie B",
+    "date": "2026-11-21T14:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Modena",
+    "away_team": "Juve Stabia",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 2.0,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        2,
+        3,
+        1,
+        3,
+        2,
+        1,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        1,
+        1,
+        3,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    "odds": 1.49,
+    "exp_home": 1.22,
+    "exp_away": 1.08,
+    "exp_total": 2.3,
+    "over15": 67
+  },
+  {
+    "match_id": "mt_644680303",
+    "league": "LaLiga",
+    "date": "2026-11-21T20:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Real Madrid",
+    "away_team": "Celta Vigo",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 2.43,
+      "avg_conceded": 0.86,
+      "goals_list": [
+        3,
+        1,
+        1,
+        4,
+        2,
+        3,
+        3
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        1,
+        5,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "odds": 1.52,
+    "exp_home": 1.37,
+    "exp_away": 0.88,
+    "exp_total": 2.25,
+    "over15": 66
+  },
+  {
+    "match_id": "mt_988360414",
+    "league": "Premier League",
+    "date": "2026-11-21T17:30:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Newcastle United",
+    "away_team": "Arsenal",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 1.71,
+      "goals_list": [
+        1,
+        2,
+        1,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 0.57,
+      "goals_list": [
+        2,
+        0,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    "odds": 1.54,
+    "exp_home": 0.66,
+    "exp_away": 1.55,
+    "exp_total": 2.21,
+    "over15": 65
+  },
+  {
+    "match_id": "mt_644094850",
+    "league": "Championship",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Stoke City",
+    "away_team": "Birmingham City",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 0.86,
+      "goals_list": [
+        2,
+        2,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 2.29,
+      "avg_conceded": 0.43,
+      "goals_list": [
+        1,
+        4,
+        3,
+        0,
+        3,
+        3,
+        2
+      ]
+    },
+    "odds": 1.54,
+    "exp_home": 0.77,
+    "exp_away": 1.46,
+    "exp_total": 2.23,
+    "over15": 65
+  },
+  {
+    "match_id": "mt_988311826",
+    "league": "Ligue 2",
+    "date": "2026-11-21T13:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Nantes",
+    "away_team": "Grenoble Foot 38",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 1.0,
+      "goals_list": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 1.71,
+      "goals_list": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        3
+      ]
+    },
+    "odds": 1.54,
+    "exp_home": 1.32,
+    "exp_away": 0.9,
+    "exp_total": 2.22,
+    "over15": 65
+  },
+  {
+    "match_id": "mt_377405280",
+    "league": "Premier League",
+    "date": "2026-11-21T15:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Chelsea",
+    "away_team": "Leeds United",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.57,
+      "avg_conceded": 1.29,
+      "goals_list": [
+        2,
+        0,
+        5,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 0.86,
+      "goals_list": [
+        4,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "odds": 1.56,
+    "exp_home": 1.12,
+    "exp_away": 1.07,
+    "exp_total": 2.19,
+    "over15": 64
+  },
+  {
+    "match_id": "mt_024111207",
+    "league": "Serie B",
+    "date": "2026-11-21T14:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "S\u00fcdtirol",
+    "away_team": "Cremonese",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.14,
+      "avg_conceded": 1.43,
+      "goals_list": [
+        4,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.29,
+      "avg_conceded": 0.71,
+      "goals_list": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        4
+      ]
+    },
+    "odds": 1.56,
+    "exp_home": 0.81,
+    "exp_away": 1.37,
+    "exp_total": 2.18,
+    "over15": 64
+  },
+  {
+    "match_id": "mt_733746342",
+    "league": "Bundesliga",
+    "date": "2026-11-21T17:30:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "FC Schalke 04",
+    "away_team": "VfB Stuttgart",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 0.71,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 1.43,
+      "avg_conceded": 1.29,
+      "goals_list": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        4,
+        1
+      ]
+    },
+    "odds": 1.69,
+    "exp_home": 0.84,
+    "exp_away": 1.15,
+    "exp_total": 1.99,
+    "over15": 59
+  },
+  {
+    "match_id": "mt_200231682",
+    "league": "LaLiga",
+    "date": "2026-11-21T13:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "Deportivo La Coru\u00f1a",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 0.57,
+      "avg_conceded": 1.71,
+      "goals_list": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.86,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "odds": 1.79,
+    "exp_home": 0.71,
+    "exp_away": 1.17,
+    "exp_total": 1.88,
+    "over15": 56
+  },
+  {
+    "match_id": "mt_739444369",
+    "league": "Serie B",
+    "date": "2026-11-21T14:00:00.000Z",
+    "date_key": "2026-11-21",
+    "home_team": "Carrarese",
+    "away_team": "Virtus Entella",
+    "home_form": {
+      "n_games": 7,
+      "avg_scored": 1.0,
+      "avg_conceded": 1.29,
+      "goals_list": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    "away_form": {
+      "n_games": 7,
+      "avg_scored": 0.57,
+      "avg_conceded": 1.14,
+      "goals_list": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "odds": 1.89,
+    "exp_home": 0.99,
+    "exp_away": 0.78,
+    "exp_total": 1.77,
+    "over15": 53
+  }
+]
